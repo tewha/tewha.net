@@ -1,6 +1,5 @@
 ---
 layout: post
-category : beginner
 tags : [c99, objective-c]
 ---
 
