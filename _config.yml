@@ -12,11 +12,10 @@ pygments: true
 title : Tewha.net
 tagline: Mostly about iOS.
 author :
-  name : Name Lastname
+  name : Steven Fisher
   email : tewha@me.com
   github : tewha
   twitter : tewha
-  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
