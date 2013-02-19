@@ -1,6 +1,7 @@
 ---
 layout: post
 tags : [instancetype, objective-c]
+title: "Why you should use instancetype instead of id"
 ---
 
 In my previous entry, I discussed [when `id` will be promoted to `instancetype`][1]. But now that I've explained this, I'd like to explain why you should *understand* this but not *rely* on it. Instead, you should use `instancetype` directly.
