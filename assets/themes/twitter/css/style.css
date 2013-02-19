@@ -17,6 +17,7 @@ html, body {
   background-color: #fff;
   padding: 20px;
   margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+  line-height: 133%;
 }
 
 /* Page header tweaks */
