@@ -19,8 +19,8 @@ html, body {
   margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
 }
 
-.content p {
-  line-height: 200%;
+.content p, .content li {
+  line-height: 180%;
 }
 
 /* Page header tweaks */
