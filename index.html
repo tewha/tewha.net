@@ -8,9 +8,11 @@ tagline: Mostly about iOS.
   <!-- iterate through the posts on this page -->
   {% for page in paginator.posts %}
     <div class="post">
-      <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-      <p class="meta">{{ page.date | date: "%B %e, %Y" }}</p>
-        {{ page.content | postmorefilter: page.url, "Read the rest of this entry" }}
+      <div class="title">
+        <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+        <p class="meta">{{ page.date | date: "%B %e, %Y" }}</p>
+      </div>
+      {{ page.content | postmorefilter: page.url, "Read the rest of this entry" }}
     </div>
   {% endfor %}
 
