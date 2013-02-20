@@ -80,4 +80,4 @@ You should hesitate before writing a message that returns `id`. Ask yourself: Is
 
 There are certainly cases where you need to return `id`; namely, if you're returning a different class. But you'll probably use `instancetype` much more frequently than `id`.
 
-[1]: http://tewha.net/2013/01/when-is-id-promoted-to-instancetype/
+[1]: {{ production_url }}/2013/01/when-is-id-promoted-to-instancetype/

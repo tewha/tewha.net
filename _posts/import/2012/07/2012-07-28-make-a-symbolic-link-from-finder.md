@@ -33,6 +33,6 @@ You can even add a keyboard shortcut for it in System Preferences:
 
 *Remember:* A symlink does not follow the original file if the original file moves on your hard drive.
 
-[1]: /2012/07/how-to-sync-xcode-4s-key-bindings-and-code-snippets/
+[1]: {{ production_url }}/2012/07/how-to-sync-xcode-4s-key-bindings-and-code-snippets/
 [2]: http://db.tt/ht6NoXF8
 [3]: http://dl.dropbox.com/u/1606770/Goodies/Make%20SymLink.workflow.zip
