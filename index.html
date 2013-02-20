@@ -1,0 +1,27 @@
+---
+layout: page
+title: Tewha.net
+tagline: Mostly about iOS.
+---
+
+<div id="home">
+  <!-- iterate through the posts on this page -->
+  {% for page in paginator.posts %}
+    <div class="post">
+      <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+      <p class="meta">{{ page.date | date: "%B %e, %Y" }}</p>
+        {{ page.content | postmorefilter: page.url, "Read the rest of this entry" }}
+    </div>
+  {% endfor %}
+
+  <!-- links to prev and next pages for browsing thru archives -->
+  {% if paginator.previous_page == 1 %}
+    <span id="newer"><a href="/">&laquo;&laquo; Newer Entries</a></span>
+  {% elsif paginator.previous_page %}
+    <span id="newer"><a href="/page{{ paginator.previous_page }}">&laquo;&laquo; Newer Entries</a></span>
+  {% endif %}
+  {% if paginator.next_page %}
+    <span id="older"><a href="/page{{ paginator.next_page }}">Older Entries &raquo;&raquo;</a></span>
+  {% endif %}
+
+</div>
