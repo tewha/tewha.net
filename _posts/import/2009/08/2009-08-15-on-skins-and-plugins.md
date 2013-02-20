@@ -31,7 +31,7 @@ This one is a little less clear. There's great reasons to do plugins. Integratio
 
 But you know what isn't a great reason? Making your product a **platform**. Do you want to be a product people use, or a platform people struggle with?
 
-Firefox's plugins make me flinch. They're usually poor quality, craptacular tools that lunge for a particular nugget of a good idea and fall flat on their faces a few yards away from it. There are a few that are interesting, but they'd [benefit from being rolled in[3], or being a [separate stand-along product][4] on their own.
+Firefox's plugins make me flinch. They're usually poor quality, craptacular tools that lunge for a particular nugget of a good idea and fall flat on their faces a few yards away from it. There are a few that are interesting, but they'd [benefit from being rolled in][3], or being a [separate stand-along product][4] on their own.
 
 [3]: https://addons.mozilla.org/en-US/firefox/addon/1843
 [4]: https://addons.mozilla.org/en-US/firefox/addon/5817
