@@ -1,7 +1,7 @@
 ---
 layout: post
 tags : ["iOS Development", "Objective-C"]
-title: " Modern Objective-C with iOS 5"
+title: "Modern Objective-C with iOS 5"
 ---
 Modern Objective-C contains subscripting support.
 
