@@ -11,4 +11,4 @@ title: "A brief conversation on web standards"
 
 "Wasn't it introduced in 1998?"
 
-"No, it was introduced in 1995. It wasn't <em>supported</em> until 1998."
+"No, it was introduced in 1995. It wasn't *supported* until 1998."

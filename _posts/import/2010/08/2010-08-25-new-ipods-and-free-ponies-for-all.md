@@ -15,7 +15,7 @@ Well, I'm not famous or Internet famous, so I can go out on a limb and give you 
 * An updated iTunes.
 * That's it.
 
-You will not see an updated Apple TV. You will not see an iPad nano. You will not see The Beatles. You will not see cloud based syncing, unless it's the only way to sync the new iPod. You will see changes to the iPod, the iPod, the iPod, and things directly connected to the iPod. Apple will stay on message. Given that the invite is in the shape of a guitar, the message is <strong>music</strong>.
+You will not see an updated Apple TV. You will not see an iPad nano. You will not see The Beatles. You will not see cloud based syncing, unless it's the only way to sync the new iPod. You will see changes to the iPod, the iPod, the iPod, and things directly connected to the iPod. Apple will stay on message. Given that the invite is in the shape of a guitar, the message is **music**.
 
 **Update:** Well, I was wrong about the [Apple TV][2], but I was right about cloud sync and the iPad nano.
 

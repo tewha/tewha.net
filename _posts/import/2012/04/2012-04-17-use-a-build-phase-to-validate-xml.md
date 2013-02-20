@@ -5,7 +5,7 @@ title: "Use a Build Phase to validate XML"
 ---
 My application includes some XML files that are used while running to map data from a web service. This has drastically simplified the code I needed to write to parse data from the web service, since I can describe how to decode all of the types of object the web service interacts with simply.
 
-If I accidentally provide bad XML, I don't know until my app tries to parse it. That may be some time into its run. If the XML is processed because of a specific user action, I've broken that specific user action.
+If I accidentally provide bad XML, I don't know until my app tries to parse it. That may be some time into its run. If the XML is processed because of a specific user action, I've broken that specific user action. So we're going to build a build phase to validate the XML.
 
 <!--more-->
 

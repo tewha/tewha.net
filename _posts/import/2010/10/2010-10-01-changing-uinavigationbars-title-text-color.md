@@ -5,8 +5,9 @@ title: "Changing UINavigationBar's title text color"
 ---
 How do you change UINavigationBar's title color? You can't, directly, but you can substitute your own view.
 
-For example, start with <a href="http://developer.apple.com/library/ios/#samplecode/NavBar/Introduction/Intro.html">Apple's NavBar sample</a>.  Drop this code into <code>initWithNibName:bundle:</code> in <code>PageThreeViewController.m</code>:
 <!--more-->
+
+For example, start with <a href="http://developer.apple.com/library/ios/#samplecode/NavBar/Introduction/Intro.html">Apple's NavBar sample</a>.  Drop this code into `initWithNibName:bundle:` in `PageThreeViewController.m`:
 
 	- (id)initWithNibName:(NSString *)nibNameOrNil
 				   bundle:(NSBundle *)nibBundleOrNil
