@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["iOS Development", "networking"]
+tags : ["iOS Development", "Networking"]
 title: "Reachability"
 ---
 Apple has a sample code package called Reachability. It wraps an iOS framework called SystemConfiguration, and can be used to determine network status, and catch events about networking going up and down. In the past, it's been an ugly chunk of sample code, but it's pretty respectable now.

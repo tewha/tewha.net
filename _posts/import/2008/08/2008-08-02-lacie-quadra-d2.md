@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["harddrive", "lacie", "nicedesign"]
+tags : ["Hard Disk", "LaCie", "Good Design"]
 title: "LaCie Quadra d2"
 ---
 It's way too early to tell if LaCie is still the "all that and a bag of chips" hard drive company, but I can tell you this right away: The case is the best external case I've ever personally bought, and probably better than the stackable system Discovery bought from LaCie over a decade ago. It's extremely solid, aluminum and rippled like a heatsink.

@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["ios", "Software Development", "Xcode"]
+tags : ["iOS", "Software Development", "Xcode"]
 title: "Xcode and iPhone OS 3.0.1"
 ---
 To get Xcode 3.1.3 working with iPhone OS 3.0.1, you'll need to teach Xcode how to target iPhone OS 3.0.1.

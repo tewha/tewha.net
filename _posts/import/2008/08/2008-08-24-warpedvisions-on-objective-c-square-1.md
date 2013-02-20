@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["Cocoa", "Mac OS X", "Objective-c", "Software Development"]
+tags : ["Cocoa", "Mac OS X", "Objective-C", "Software Development"]
 title: "WarpedVisions on Objective-C, square 1"
 ---
 Bruce over on WarpedVisions writes on <a href="http://warpedvisions.org/2008/08/24/objective-c-square-1/"> entering the world of Objective-C and Cocoa development</a>.

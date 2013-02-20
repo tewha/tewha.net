@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["coding", "iOS Development"]
+tags : ["Coding", "iOS Development"]
 title: "Changing UINavigationBar's title text color"
 ---
 How do you change UINavigationBar's title color? You can't, directly, but you can substitute your own view.

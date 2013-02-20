@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["hubris", "snapshots", "Xcode", "coding"]
+tags : ["Snapshots", "Xcode", "Coding"]
 title: "I've changed my mind about Xcode snapshots"
 ---
 In the recent past, [I've mocked Xcode's snapshots][1]. They were sluggish and not especially reliable. I'd like to say they were inefficient, too, but the truth is that they were so slow and so unreliable I never bothered to find out.

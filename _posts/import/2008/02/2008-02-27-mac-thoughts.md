@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["Apple", "mac", "Mac OS X"]
+tags : ["Apple", ".Mac", "Mac OS X"]
 title: ".Mac thoughts"
 ---
 So I'm about five days into my free .Mac trial, and I thought I'd write up some thoughts.

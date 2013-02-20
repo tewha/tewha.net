@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["Blogging", "Bad Design", "Wordpress"]
+tags : ["Blogging", "Bad Design", "WordPress"]
 title: "Cut the crap"
 ---
 One thing I'm surprised at every few months is how few good WordPress themes there are without sidebars, or at least with fully customizable content within the sidebar.

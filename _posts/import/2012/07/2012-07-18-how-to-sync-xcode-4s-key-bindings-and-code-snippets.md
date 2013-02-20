@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : [tip]
+tags : ["tip", "How To"]
 title: "How to sync Xcode 4's key bindings and code snippets"
 ---
 You can use Dropbox to synchronize Xcode 4's key bindings, code snippets, named tabs, and font & color schemes. If you don't have a Dropbox account yet, [you can sign up here][1].

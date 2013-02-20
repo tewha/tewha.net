@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["Automatic Update", "Software Development", "UI"]
+tags : ["Automatic Update", "Software Development", "User Interface"]
 title: "Your app has a job, and it isn't updating itself."
 ---
 WarpedVisions has an article on <a href="http://warpedvisions.org/2007/11/14/boot-to-windows-do-not-pass-go/">automatic updates imposing on users</a>.

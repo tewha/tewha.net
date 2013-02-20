@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["blocks", "cocoa", "Cocoa Touch", "error-handling"]
+tags : ["Blocks", "Cocoa", "Cocoa Touch", "Error Handling"]
 title: "Using blocks to handle errors"
 ---
 In the past, I've talked about [Using blocks to remove redundancy](/2011/07/blocks-to-remove-redundancy/). But now I want to explain the pattern I've adopted since, which is my favorite block pattern of all. Even though it, too, is all about removing redundancy: handling errors.

@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["ios", "iOS Development", "Software Development"]
+tags : ["iOS", "iOS Development", "Software Development"]
 title: "You don't have to have 16:9 on day 1"
 ---
 You don't have to build with armv7s [right away][1].

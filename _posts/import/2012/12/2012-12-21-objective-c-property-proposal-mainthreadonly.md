@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["objective-c", "proposal"]
+tags : ["Objective-C", "Proposal"]
 title: "Objective-C property proposal: mainthreadonly"
 ---
 Let me be clear: Objective-C does not do this. But wouldn't it be cool if it did?

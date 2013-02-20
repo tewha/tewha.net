@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["Apple", "dts", "Software Development", "tech-support"]
+tags : ["Apple", "DTS", "Software Development", "Coding"]
 title: "ADC incidents"
 ---
 In the past, I've tried to avoid using ADC incidents. You get two a year per program, and most years I've avoided using any. This year, I decided to use them both the iOS ones up before renewing.

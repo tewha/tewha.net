@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["clang", "compiler", "gcc", "warnings", "Xcode"]
+tags : ["clang", "Compiler", "gcc", "Warnings", "Xcode"]
 title: "Better Xcode warnings through .xcconfig files"
 ---
 Peter Hosey <a href="http://boredzo.org/blog/archives/2009-11-07/warnings">posted a list of warnings he turns on</a>. Here's the warnings I turn on. It's mostly the same list.

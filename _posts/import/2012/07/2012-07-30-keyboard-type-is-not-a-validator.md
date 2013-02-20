@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["ios", "Software Development", "coding"]
+tags : ["iOS", "Software Development", "Coding"]
 title: "Keyboard type is not a validator"
 ---
 So you've set your `UITextField`'s `keyboardType` to only accept numbers. Or email addresses, or URLs, or whatever. Fine. You're done, right?

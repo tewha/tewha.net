@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["objc-arc", "ios", "iOS 5", "memory-management", "Software Development", "Xcode", "coding"]
+tags : ["objc-arc", "iOS", "iOS 5", "Memory Management", "Software Development", "Xcode", "coding"]
 title: "Automatic Reference Counting"
 ---
 If you're an application developer: Yes, you should use Automatic Reference Counting (ARC).

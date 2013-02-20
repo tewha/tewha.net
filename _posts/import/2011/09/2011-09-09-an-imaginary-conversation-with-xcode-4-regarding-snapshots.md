@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["rant", "venting", "Xcode"]
+tags : ["Rant", "Venting", "Xcode"]
 title: "An imaginary conversation with Xcode 4 regarding snapshots"
 ---
 Xcode: Hey…

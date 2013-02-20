@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["Good Design", "Mac OS X", "user-interface"]
+tags : ["Good Design", "Mac OS X", "User Interface"]
 title: "Mac OS X interface flaws"
 ---
 Here are a few things I've noticed that just don't make sense in Mac OS X v10.5.

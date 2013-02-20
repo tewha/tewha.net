@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["agps", "Apple", "gps", "iPhone", "maps", "navigation", "wifi"]
+tags : ["AGPS", "Apple", "GPS", "iPhone", "Maps", "Navigation", "Wi-Fi"]
 title: "How the iPhone GPS differs from a standalone navigation GPS"
 ---
 All models of iPhone since the 3G, as well as the iPad 3G and iPad 2 3G, include Assisted GPS (AGPS).

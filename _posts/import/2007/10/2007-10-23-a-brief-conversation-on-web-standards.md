@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["humor", "webstandards"]
+tags : ["Humor", "Web Standards"]
 title: "A brief conversation on web standards"
 ---
 "I've got to figure out why he used ALIGN, despite it being deprecated since 1999."

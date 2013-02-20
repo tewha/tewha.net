@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["objc-arc", "cocoa", "Cocoa Touch", "objective-c", "open-source"]
+tags : ["objc-arc", "Cocoa", "Cocoa Touch", "Objective-C", "Open Source"]
 title: "Make your library enforce ARC"
 ---
 If you have an open source library that requires Automatic Reference Counting (ARC), you may have issues with your users trying to build it without ARC turned on. Luckily, it's pretty simple to *enforce* ARC.

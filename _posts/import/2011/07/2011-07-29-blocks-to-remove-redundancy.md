@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["blocks", "code", "howto", "Objective-c"]
+tags : ["Blocks", "Coding", "How To", "Objective-C"]
 title: "Blocks to remove redundancy"
 ---
 Blocks have many complicated uses, from event-based code to multithreading. But they can also be used for very trivial tasks, such as removing redundant lines from code.

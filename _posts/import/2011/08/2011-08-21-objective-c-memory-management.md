@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["cocoa", "Cocoa Touch", "memory-management"]
+tags : ["Cocoa", "Cocoa Touch", "Memory Management"]
 title: "Objective-C memory management"
 ---
 With Automatic Reference Counting (ARC) coming out soon, you could argue this post is coming almost too late. But there's a lot of confusion over this, and I don't think ARC will help much if you don't understand the *why* of memory management.

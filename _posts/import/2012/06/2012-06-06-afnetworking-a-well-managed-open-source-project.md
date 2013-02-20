@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["afnetworking", "github", "social-coding", "Software Development", "coding"]
+tags : ["AFNetworking", "github", "Social Coding", "Software Development", "Coding"]
 title: "AFNetworking: a well managed open source project"
 ---
 Last week, I talked about [Networking using NSURLConnection](/2012/06/networking-using-nsurlconnection). In a future post, I'm going to talk about how to use AFNetworking. But first, I wanted to talk about why you should trust AFNetworking as a project in your project.

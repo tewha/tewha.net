@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["automator", "finder", tip]
+tags : ["Automator", "Finder", "Tip", "How To"]
 title: "Make a symbolic link from Finder"
 ---
 In a previous entry, I explained [How to Sync Xcode's Settings][1] via [Dropbox][2]. This involves creating symlinks in Terminal, and cleverly moving files about.

@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["foundation-framework", "web-services", "coding"]
+tags : ["Foundation.framework", "Web Services", "Coding"]
 title: "Handling 302/303 redirects"
 ---
 If you try to POST to a web API using `NSURLConnection` that redirects you using a [302](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.3.3) or [303](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.3.4) redirect, you'll fall over to a GET request. This is intentional, but you can override it.

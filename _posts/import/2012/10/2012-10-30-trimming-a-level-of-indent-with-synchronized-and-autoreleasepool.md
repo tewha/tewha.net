@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["autoreleasepool", "synchronized", "objective-c"]
+tags : ["@autoreleasepool", "@synchronized", "Objective-C"]
 title: "Trimming a level of indent with @synchronized and @autoreleasepool"
 ---
 I haven't seen this discussed anywhere, but you can eliminate a level of indentation when using `@synchronized` and `@autoreleasepool` blocks in a loop or conditionally. This falls naturally as a result of the way the C language works, and how these blocks work, but it took me a while to realize it.

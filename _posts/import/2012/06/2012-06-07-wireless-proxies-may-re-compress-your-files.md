@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["3g", "ios", "networking", "proxy-server"]
+tags : ["3g", "iOS", "Networking", "Proxy Server"]
 title: "Wireless proxies may re-compress your files"
 ---
 If you're downloading a file with widely-recognized lossy compression, your user's cellular provider may interfere with it. This has always been true of internet connections; I first ran into this with dialup years ago. But it went away for a while with broadband, is back with wireless.

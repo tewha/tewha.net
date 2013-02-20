@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["Xcode", "xml", "coding"]
+tags : ["Xcode", "xml", "Coding"]
 title: "Use a Build Phase to validate XML"
 ---
 My application includes some XML files that are used while running to map data from a web service. This has drastically simplified the code I needed to write to parse data from the web service, since I can describe how to decode all of the types of object the web service interacts with simply.

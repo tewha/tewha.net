@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["automator", "Software Development", "Xcode"]
+tags : ["Automator", "Software Development", "Xcode"]
 title: "Restart Xcode now"
 ---
 If you're a heavy user of Xcode, you've probably had it go sideways on you. Thankfully, the crashes that plagued previous versions are mostly gone. But in its place are some awkward debugger connection failures, long delays and such.

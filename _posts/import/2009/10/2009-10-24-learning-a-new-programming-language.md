@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["learning", "programming", "Software Development"]
+tags : ["Learning", "Programming", "Software Development"]
 title: "Learning a new programming language"
 ---
 It took me a while to learn Objective-C.

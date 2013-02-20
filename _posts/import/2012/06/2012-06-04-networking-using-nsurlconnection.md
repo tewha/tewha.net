@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["Foundation Framework", "iOS", "Software Development", "coding"]
+tags : ["Foundation.Framework", "iOS", "Software Development", "Coding"]
 title: "Networking using NSURLConnection"
 ---
 In a previous article, I mentioned how to [handle 302/303 redirects to web services](handling-302303-redirects). But that's a fairly advanced topic, and we should have built up to that.

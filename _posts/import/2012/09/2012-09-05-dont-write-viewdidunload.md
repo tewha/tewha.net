@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["objc-arc", "iOS Development", "memory-management"]
+tags : ["objc-arc", "iOS Development", "Memory Management", "UIViewController"]
 title: "Don't write viewDidUnload"
 ---
 A lot of people misunderstand the point of `viewDidUnload`. That's because despite the name that implies otherwise, it is **not** the counterpart of `viewDidLoad`.

@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["compatibility", "ios", "iOS 5", "iPhone", "Software Development"]
+tags : ["Compatibility", "iOS", "iOS 5", "iPhone", "Software Development"]
 title: "Don't write new apps that target iOS 4"
 ---
 So you're writing your first iPhone app. Welcome! But which version of iOS should you target?

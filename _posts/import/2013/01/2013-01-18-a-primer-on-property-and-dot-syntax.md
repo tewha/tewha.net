@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["dot-syntax", "objective-c", "objective-c-2-0", "property", "coding"]
+tags : ["Dot Syntax", "Objective-C", "Objective C 2.0", "@property", "Coding"]
 title: "A primer on @property and dot syntax"
 ---
 Properties were new in Objective-C 2.0, introduced in 2006. While pretty uncontroversial, along with them came dot syntax. Dot syntax is much more controversial.

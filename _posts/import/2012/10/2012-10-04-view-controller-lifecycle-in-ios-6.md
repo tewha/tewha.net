@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["ios6", "uiviewcontroller"]
+tags : ["objc-arc", "iOS Development", "Memory Management", "UIViewController"]
 title: "View Controller Lifecycle in iOS 6"
 ---
 I previously wrote about breaking the old pattern of [writing viewDidUnload][viewDidUnload]. The other half of that is the new reality, which Joe Conway's written about in [View Controller Lifecycle in iOS 6][conway].

@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : [creativity]
+tags : [Creativity]
 title: "Creativity is not a product of thinking"
 ---
 Who I am is the sum of many parts. More than my mind wants me to believe. There's a part of me that's capable of problem solving, of creativity, of insight.

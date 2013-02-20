@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["interfacedesign", "Mac OS X", "software"]
+tags : ["Interface Design", "Mac OS X", "Software"]
 title: "Hierarchical menus suck"
 ---
 In <a href="http://daringfireball.net/2008/01/where_keyboard_shortcuts_win">Where Keyboard Shortcuts Win</a>, Gruber talks about Tog's findings on mouse vs. keyboard. In a footnote, he adds:

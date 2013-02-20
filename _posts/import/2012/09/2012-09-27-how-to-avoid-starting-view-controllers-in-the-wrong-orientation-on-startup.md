@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["blocks", "Cocoa Touch", "ios", "iOS Development", "rotation"]
+tags : ["Blocks", "Cocoa Touch", "iOS", "iOS Development", "Rotation"]
 title: "How to avoid starting view controllers in the wrong orientation on startup"
 ---
 This is a bit obscure, but I ran into it earlier this week. Why would a view controller appear in the wrong orientation on startup?

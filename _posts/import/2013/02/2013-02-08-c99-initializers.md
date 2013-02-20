@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["c99", "coding"]
+tags : ["c99", "Coding"]
 title: "C99 initializers"
 ---
 You probably know `CGRectMake`, but did you know it's not the only way to make rectangles? It's not even the best way, really.
