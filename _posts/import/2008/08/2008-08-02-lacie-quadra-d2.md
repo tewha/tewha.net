@@ -9,4 +9,4 @@ I think the case itself is fanless, but of course it does have vents and the har
 
 A matching mini rack is available, though I didn't purchase one yet. I plan to buy a 750GB or 1TB drive in another couple months to back up to, and will probably pick up the rack then as well. In the meantime, I'm back to doing manual backups of my photos and music.
 
-Running from this hard drive for even an hour has convinced me that my Mac mini's hard drive is indeed failing. I'd be a lot more annoyed at that if I didn't have the Quadra to run from while waiting for the replacement hard drive. :)
+Running from this hard drive for even an hour has convinced me that my Mac mini's hard drive is indeed failing. I'd be a lot more annoyed at that if I didn't have the Quadra to run from while waiting for the replacement hard drive.
