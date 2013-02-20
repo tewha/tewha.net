@@ -6,6 +6,7 @@ title: "The secret to enjoying Xcode"
 One of the things that made me like Xcode more and become more efficient with it is realizing that while all coders are insane, me and Xcode's designers are <em>insane in different ways</em>.
 
 
+<!--more-->
 
 By that, I mean that aside from the standard keyboard shortcuts (Save, Copy... that sort of thing), none of the keyboard shortcuts made sense to me.
 

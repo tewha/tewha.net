@@ -13,7 +13,11 @@ You can now write:
 
 	NSString *value = dict[@"Key"];
 
-Unfortunately, this requires SDK support. While the OS X SDK provides this support, the iOS one doesn't (yet).
+Unfortunately, this requires SDK support. While the OS X SDK provides this support, the iOS 5 SDK one doesn't.
+
+I'm going to show you how to add it.
+
+<!--more-->
 
 ## Allow subscripting everywhere ##
 

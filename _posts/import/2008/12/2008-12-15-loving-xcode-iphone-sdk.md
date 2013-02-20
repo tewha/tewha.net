@@ -5,6 +5,8 @@ title: "Loving Xcode + iPhone SDK"
 ---
 I've been full time on an iPhone project (more of a prototype, really) for one day, and I absolutely love it.
 
+<!--more-->
+
 * It's simple and intuitive. Drop controls, set up outlets and actions.
 
 * You don't have to fight the framework. It does what it does with a minimum of fuss.

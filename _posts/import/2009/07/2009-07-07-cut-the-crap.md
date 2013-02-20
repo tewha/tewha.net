@@ -9,7 +9,7 @@ One thing I'm surprised at every few months is how few good WordPress themes the
 
 To me, sidebars with lots of internal links are a sign of pretentiousness and inflated ego. And that's pretty much it.
 
-
+<!--more-->
 
 I'm going to use my own blog as an example. Let's pretend it was written by a guy named Steve (this isn't imagination) who is not me (and this part is):
 

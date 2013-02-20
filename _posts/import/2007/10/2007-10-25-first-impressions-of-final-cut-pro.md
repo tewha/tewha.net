@@ -9,7 +9,7 @@ Today I spent my evening helping a friend figure out how to burn DVDs from video
 
 This was my first time working with Final Cut Pro.
 
-
+<!--more-->
 
 The Bad: The interface is just plain weird. It isn't very attractive for one thing: The blue-grey reminded me of a submarine. But that's just the start of it. The widgets are absurdly small even on windows that didn't need small absurdly widgets. There's no reason that a "Batch Start" widget should be shorter than Aqua's close widgets!
 

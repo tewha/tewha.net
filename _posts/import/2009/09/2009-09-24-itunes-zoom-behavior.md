@@ -5,7 +5,7 @@ title: "iTunes zoom behavior"
 ---
 iTunes prior to 9.0 used a click on the zoom widget to convert to the mini player, leaving people like me who actually like to zoom a window option-clicking it.
 
-
+<!--more-->
 
 iTunes 9.0 finally fixed this. A click on the zoom widget actually zoomed the window!
 

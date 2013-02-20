@@ -5,6 +5,8 @@ title: "QuickVerse for Mac"
 ---
 I've been putting this off for a while. While I like bibles, and I like the Mac, QuickVerse for Mac is a major disappointment to me.
 
+<!--more-->
+
 First, the good. There's a lot of content here. A lot of it. You can synchronize your view into different books, and you can look up Greek and Hebrew words.
 
 But it's got a lot of bad to it, too.

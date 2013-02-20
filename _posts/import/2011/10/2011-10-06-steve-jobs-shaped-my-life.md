@@ -7,6 +7,8 @@ I never met Steve Jobs. I've never even been in the same room as him, or (to my 
 
 So why am I choked up about his death? Because I love the man for what he accomplished, and how he's changed the world.
 
+<!--more-->
+
 Way back in elementary school, I used an Apple //e. I moved Logo's turtle around on the screen. I discovered something odd: being able to understand that computers were predictable machines, rather than mysteries had separated me. There are an infinite number of things others can do better than I. Other kids could run, they could play team sports and not let down their team. But this, I could do. But what use was it? Computers were only good at being computers. FORWARD 10. RIGHT 45. Repeat 8 times, it was a stop sign.
 
 I learned BASIC and Pascal, but on some level I was still drawing stop signs. I was solving problems no one had.

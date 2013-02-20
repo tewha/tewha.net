@@ -5,6 +5,10 @@ title: "Make your library enforce ARC"
 ---
 If you have an open source library that requires Automatic Reference Counting (ARC), you may have issues with your users trying to build it without ARC turned on. Luckily, it's pretty simple to *enforce* ARC.
 
+I'm going to discuss how to do so, and why it's a good idea.
+
+<!--more-->
+
 Here's an example, which I submitted to AFNetworking:
 
 	#if !__has_feature(objc_arc)

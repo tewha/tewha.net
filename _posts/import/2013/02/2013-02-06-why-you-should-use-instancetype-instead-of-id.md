@@ -7,6 +7,8 @@ In my previous entry, I discussed [when `id` will be promoted to `instancetype`]
 
 Let me start with this bold statement, then I'll back up and explain it: Use `instancetype` whenever it's appropriate, which is whenever a class returns an instance of that same class.
 
+<!--more-->
+
 First, some definitions:
 
     @interface Foo:NSObject

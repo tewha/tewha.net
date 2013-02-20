@@ -9,6 +9,7 @@ We develop applications for multiple platforms here. How to do this is something
 
 Another developer here suggested we evaluate Qt. To make a long story short, we've placed an order and plan to use it.
 
+<!--more-->
 
 
 <strong>Project configuration made easy.</strong>

@@ -7,6 +7,8 @@ title: "New iPods and free ponies for all"
 
 [1]: http://www.macworld.com/article/153661/2010/08/pondering_media_event_2010.html
 
+<!--more-->
+
 Well, I'm not famous or Internet famous, so I can go out on a limb and give you a guarantee of what you'll see. And nobody will care if I'm wrong. So here's my prediction. Are you ready?
 
 * New iPods.

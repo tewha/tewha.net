@@ -7,6 +7,8 @@ So you've set your Wii to 480p, then moved it back to a TV that supports only 48
 
 I searched for this for a while and found a few wrong and complicated answers.
 
+<!--more-->
+
 One way is to use the composite cable instead of the component cable. Your Wii came with a composite cable, and if you're only using 480i the component cable does nothing extra for you anyway.
 
 But what if you can't find the composite cable? This was the case for me, after my move. The answer is ridiculously simple:

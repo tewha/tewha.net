@@ -7,6 +7,8 @@ Last week, I talked about [Networking using NSURLConnection](/2012/06/networking
 
 I haven't been using github for long. That said, AFNetworking is the best-managed git project I've seen. It's being managed so well that I wanted to write about it. In doing so, I'm not trying to praise Mattt Thompson's efforts. It will probably come across that way, and he deserves it. Instead, I want to say that if you plan to maintain a git project, you should handle it as well as Mattt does.
 
+<!--more-->
+
 ## Codebase ##
 
 AFNetworking is, ultimately, a simple library. It has only a few classes, and reuses lots of the sane bits of iOS frameworks. Its main class is `AFURLConnectionOperation`, which encapsulates a `NSURLConnection` and its delegate methods in a subclass of `NSOperation`.

@@ -7,6 +7,8 @@ Blocks have many complicated uses, from event-based code to multithreading. But 
 
 Here's a common operation for me: Split a list into sublists based on some piece of data changing within a loop. When the loop is over, dump whatever's left into another sublist.
 
+<!--more-->
+
 Without blocks, this looks like this:
 
 	- (NSArray *)splitArray: (NSArray *)array

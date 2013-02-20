@@ -9,7 +9,7 @@ The new Microsoft commercial starts with a John Hodgman dressalike (You can't re
 
 It makes slightly more sense than the Gates & Seinfeld commercials, but replaces the quirkiness of those ads with banality.
 
-
+<!--more-->
 
 The commercial shows Microsoft doesn't get the concept behind Apple's "Get a Mac" ads. Hodgman is not the personification of Windows, and Justin Long is no the personification of Mac. Hodgman is a PC, like he says. Long is a Mac, like he says.
 

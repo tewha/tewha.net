@@ -7,7 +7,11 @@ If you're a heavy user of Xcode, you've probably had it go sideways on you. Than
 
 Here's how I created a shortcut key to relaunch Xcode.
 
-You may find [Programmer's KillSwitch][killswitch] more practical.
+You may find [Programmer's KillSwitch][killswitch] more practical, but this is a fun exercise in using Automator.
+
+Ready? Here we go.
+
+<!--more-->
 
 ## Automator ##
 

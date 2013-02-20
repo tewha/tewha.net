@@ -5,7 +5,7 @@ title: "Hot hardware"
 ---
 I've been using this iMac for a few weeks, and I've noticed an odd melty-plastic smell from time to time. I didn't associate it with the iMac, though; the top of the iMac was hot, but not unbearably so.
 
-
+<!--more-->
 
 After the weekend, though, the smell was more intense. <a href="http://warpedvisions.org/">Bruce</a> found a particular spot on the back panel of it that was uncomfortably hot. Time to investigate.
 

@@ -7,6 +7,8 @@ Who I am is the sum of many parts. More than my mind wants me to believe. There'
 
 My mind is the part of me that questions things. It's my inner critic. It does most of the talking in my head. Mostly, it tells me that I can't do something. *This is hard. That's wrong. You've got nothing new to add to this.* This is not how I solve problems, though it drives me to find better solutions to problems.
 
+<!--more-->
+
 My eyes speak to me, too. *This is ugly. How can you keep writing when the font is wrong? There's a spelling error, go fix it!* This is not how I solve problems, though it's how I see that problems exist.
 
 My creativity flows from something else, the most quiet part of me. It's actually what I'm using right now to write this. It's my fingers. It's not actually my fingers, of course, but it's the part of my brain that sets my fingers in motion, across a keyboard or across an open page. It's the part of my brain that, when my mind said I had nothing worthwhile to type today, started typing before deciding what to type. It's the part of me that tries to draw a face, and doesn't care that the face looks like something an untalented preschool child might draw. It's the part of me that produced the first draft of this, spelling errors and crappy fonts and occasional run-on sentence and all.

@@ -11,6 +11,7 @@ An Xcode build on my personal PowerBook (it has 768MB of RAM), with a bunch of a
 
 <code>VM: 5.81G +  150M   220631(1) pageins, 60523(0) pageouts</code>
 
+<!--more-->
 
 
 The highest number I saw there was about 200, and it appeared only once or twice. The vast majority of the build, it was 0.

@@ -7,6 +7,8 @@ I started this post over six months ago, but never quite got around to finishing
 
 Should your new application support skins?
 
+<!--more-->
+
 Probably not. Skins are often a programmer's way of saying "Oh, I don't do UI. We'll let someone else get it right." Only nobody ever does, at least not in your product. Your UI just isn't as compelling [as the one it's replacing][1].
 
 [1]: http://www.codinghorror.com/blog/archives/000789.html

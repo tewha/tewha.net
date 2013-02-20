@@ -14,6 +14,7 @@ In <a href="http://daringfireball.net/2008/01/where_keyboard_shortcuts_win">Wher
 To me, this is a real problem on Mac OS. It is not one that Apple has not only completely failed to address, but has actually made worse in Mac OS X. For technical users, items in hierarchical menus are slightly more difficult to activate. But for non-technical users, items in hierarchical menus are <strong>not</strong> just a little more difficult to activate, but <strong>awesomely</strong> so. And in Mac OS X, Apple has introduced <em>more</em> of them!
 
 
+<!--more-->
 
 Hierarchical menus have become a little better now that you don't have to hold down the mouse button ((And, in fact, this suggests a simple fix Apple could do: Clicking an item with a hierarchical menu should lock that hierarchical menu open so the user can take as long as they want and use whatever motion they want to get into the hierarchical menu.)), but watching a neophyte or novice try to access them is a real eye-opener. I'd really suggest to any developer thinking of using one that they ask a non-technical person to select one. Using the mouse at all is the first major task. Using the mouse to select menu items is almost as difficult. And using the mouse to select menu items in hierarchal menus will often be more difficult than the previous two combined. It's not only conceptually screwy, but physically difficult.
 

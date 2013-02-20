@@ -9,6 +9,8 @@ Me: Yeah?
 
 Xcode: You want to enable snapshots yet?
 
+<!--more-->
+
 Me: No.
 
 Xcode: I'm just asking.

@@ -9,7 +9,7 @@ It took me a while to learn Objective-C.
 
 I started at the most basic level, wondering at the language. What are these brackets? What's with the @ signs? What's the difference between a - and a +? These aren't hard things to learn, but understanding the reasoning behind them helps. And then there's a point where it suddenly makes sense.
 
-
+<!--more-->
 
 But the framework was confusing. How do I do this? Though I was less confused, this one isn't solved directly. I became competent. And I started to ask the best question: "Why?"
 

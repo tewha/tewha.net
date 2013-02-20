@@ -9,7 +9,7 @@ To get Xcode 3.1.3 working with iPhone OS 3.0.1, you'll need to teach Xcode how 
 
 Xcode will automatically recognize iPhone OS 3.0.1 and look for a new SDK at a set path. The problem is that SDK doesn't exist. The good part is that the iPhone OS 3.0 SDK works perfectly for developing 3.0.1. The only apparent change is the SMS fix.
 
-
+<!--more-->
 
 Assuming you've installed to /Developer, the iPhone OS 3.0 SDK is here:
 

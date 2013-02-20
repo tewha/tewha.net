@@ -7,6 +7,8 @@ So you're writing your first iPhone app. Welcome! But which version of iOS shoul
 
 This is pretty simple. There's very little reason not to write for iOS 5.0.
 
+<!--more-->
+
 ## Market share ##
 
 According to [iOS 5 penetration percentage](http://www.game4mob.com/index.php/tech-articles/67-ios-5-penetration-percentage), iOS 5 has more than 80% of the market at this point. This is only covering one developer's apps, but it's cool nonetheless because the data is updated daily.

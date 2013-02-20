@@ -9,7 +9,7 @@ Gruber at Daring Fireball <a href="http://daringfireball.net/2008/03/one_app_at_
 
 Writing a background task for Touch OS X would be very, very hard. Well, actually, not so much hard as taking a lot of skill, time and effort. I can really understand why Apple wouldn't want just anyone doing it. But before I get too stressed over it, it's worth asking a few questions:
 
-
+<!--more-->
 
 First, what kind of program does this actually affect? Not many, probably. In fact, basically, polling network software or network software that receives pushes is the most common scenario. ((Time-based software is also a possibility, but let's discard that for the moment.)) An instant messenger program is an obvious example; it needs to keep the connection alive and plays some sort of beep when a message comes in.
 

@@ -13,7 +13,7 @@ I've done some thinking on this subject.
 
 Should you wait on an update check before presenting the UI? Should you ask them if they want to update? If they do want to update, should they need to go through a web browser to download the update? Should it be a standard installer?
 
-
+<!--more-->
 
 One principle I like for automatic update is this:
 

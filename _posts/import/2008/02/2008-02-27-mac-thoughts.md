@@ -9,7 +9,7 @@ So I'm about five days into my free .Mac trial, and I thought I'd write up some 
 
 I pay about $60 per year for 500 GB of storage and 5 TB of bandwidth from <a href="http://www.dreamhost.com/r.cgi?67943">DreamHost</a>. .Mac costs $100 per year. For that much, it should be really, really special. On a strictly numerical level, DreamHost beats .Mac. Now, it's true that DreamHost's reputation for reliability has taken a beating the last year or so, but for $6 per month I can accept a few days per month of down time. And it's nowhere <i>near</i> that bad; it seems to be less than one evening every month or two.
 
-
+<!--more-->
 
 So that leaves a comparison of features. Now, actually there's very little overlap between the two. .Mac offers a bare minimum of traditional web hosting features, with low bandwidth and storage, and few of the more dynamic features such as SQL and PHP. DreamHost offers huge bandwidth, huge storage, and lots of dynamic features.
 

@@ -5,6 +5,8 @@ title: "Handling 302/303 redirects"
 ---
 If you try to POST to a web API using `NSURLConnection` that redirects you using a [302](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.3.3) or [303](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.3.4) redirect, you'll fall over to a GET request. This is intentional, but you can override it.
 
+<!--more-->
+
 With HTTP status codes 302 and 303, the user agent (in this case, `NSURLConnection`) will change the request type from POST to GET. This is just how 302 was usually implemented; status code 303 was added to HTTP/1.1 to make this behaviour explicit.
 
 HTTP/1.1 also added a status code to redirect without changing the request type from POST to GET. If you can change the web site, getting it to redirect you with a [307](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.3.8) instead will fix the problem.

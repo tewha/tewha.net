@@ -9,6 +9,8 @@ Imagine that you trash an application because of a security flaw. Say, it handle
 
 It doesn't work that way — you're not safe. Time machine has made a copy in your time machine backup that Mac OS X will cheerfully launch without a warning.
 
+<!--more-->
+
 Steps to reproduce:
 
 1. Have existing, up-to-date Time Machine backups.

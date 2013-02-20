@@ -5,6 +5,8 @@ title: "Automatic Reference Counting"
 ---
 If you're an application developer: Yes, you should use Automatic Reference Counting (ARC).
 
+<!--more-->
+
 Odds are, the compiler understands Objective-C and Cocoa better than you. I don't mean this as an insult; it certainly understands it better than me. I think you could safely say it understands the rules better than all but maybe a dozen people worldwide. And it knows tricks to use them to a degree that you and I can't repeat, even if we understood as well as it does.
 
 The rest is just details, but they're important:

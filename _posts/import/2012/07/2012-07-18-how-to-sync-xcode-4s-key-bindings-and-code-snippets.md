@@ -9,6 +9,8 @@ The secret is *symlinks*. These are different from the aliases you can create in
 
 The problem with this is that Xcode 4 will not follow symlinks. Luckily, Dropbox will. (Note, however, that Dropbox will **not** follow aliases.)
 
+<!--more-->
+
 On your first computer:
 
 1. Quit Xcode.

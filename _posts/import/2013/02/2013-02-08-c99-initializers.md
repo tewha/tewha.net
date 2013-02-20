@@ -11,6 +11,8 @@ The main advantage to the C99 syntax is that it gives you some very Objective-C 
 
 It's sometimes slightly *more* typing, but I use it everywhere now.
 
+<!--more-->
+
 ## The syntax ##
 
 Consider the `CGRectMake` way to make a rectangle:

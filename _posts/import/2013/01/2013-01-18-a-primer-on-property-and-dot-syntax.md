@@ -5,6 +5,10 @@ title: "A primer on @property and dot syntax"
 ---
 Properties were new in Objective-C 2.0, introduced in 2006. While pretty uncontroversial, along with them came dot syntax. Dot syntax is much more controversial.
 
+In this article, I'll discuss the advantages of `@property` which make it worth using, and discuss "dot syntax."
+
+<!--more-->
+
 ##Properties
 
 Properties are awesome. A `@property` declaration formalizes some things that previously had to be explained in comments or by convention.

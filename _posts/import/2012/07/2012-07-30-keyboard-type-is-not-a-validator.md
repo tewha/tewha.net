@@ -9,6 +9,8 @@ What are you going to do if they enter something else in there?
 
 `UITextField`'s keyboard type is a *keyboard type*, not a validator.
 
+<!--more-->
+
 Here's two examples:
 
 ## Emoji ##

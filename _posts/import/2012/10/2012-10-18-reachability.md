@@ -7,6 +7,10 @@ Apple has a sample code package called Reachability. It wraps an iOS framework c
 
 One thing Reachability is not, however, is a crystal ball. Please don't use it as if it were.
 
+In this article, I'm going to discuss how to use it. Because this is one thing I see a lot of developers get wrong.
+
+<!--more-->
+
 How should you use Reachability?
 
 - **Always try your connection *first*.** If you need to upload a change to the server, go ahead and try it. Don't worry about what Reachability last said, or currently says. Your attempt may be what kicks iOS into powering up the wireless hardware or re-establishing a connection. Networking is really hard; the only way to know if your connection will succeed is to try it and see if it **did** succeed.

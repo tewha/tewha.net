@@ -7,6 +7,8 @@ In a previous entry, I explained [How to Sync Xcode's Settings][1] via [Dropbox]
 
 You can't create symlinks in Finder with what Apple provides you, but you **can** create an Automator workflow to do so easily.
 
+<!--more-->
+
 1. Create a new service in Automator.
 2. Select: Service receives **selected files or folders** in **any application**.
 3. Drag a Run Shell Script action.

@@ -9,6 +9,8 @@ As a long time user of [Perforce][1] and a moderately experienced [CVS][2] user,
 [2]: http://www.nongnu.org/cvs/
 [3]: http://subversion.tigris.org/
 
+<!--more-->
+
 ## High expectations ##
 
 I'd heard from various sources that Subversion was like cvs, but without the suck. I'd heard it compared favorably to Perforce; certainly, it had features I missed from Perforce that cvs just didn't deliver (notably, I missed atomic commits and, hence, easy updating to a specific version). Subversion's home page claims "Subversion's interface to a particular feature is similar to CVS's, except where there's a compelling reason to do otherwise."

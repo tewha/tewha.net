@@ -7,6 +7,8 @@ With Automatic Reference Counting (ARC) coming out soon, you could argue this po
 
 After a couple years, I've come to adopt some very simple rules for memory management.
 
+<!--more-->
+
 ## Concepts
 
 The first step is to pick up a few concepts that will help you as you code.

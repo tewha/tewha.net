@@ -5,7 +5,9 @@ title: "Windows Installers made... less painful"
 ---
 Let's face it, deploying an application on Windows is never fun. We've been using WiX, which is about as unfun as one can possibly get. I actually think the exact number is slightly higher than this, but I've gotten used to saying "1,200 lines of XML to install 7 files." Not a big deal, until you have several components needing separate installers.
 
-(As a coworker points out, adding XML to a problem means you have two problems: The original problem, plus XML.)
+Adding XML to a problem means you have two problems: The original problem, plus XML.
+
+<!--more-->
 
 Visual Studio 2005 has a much better installer system built into it, though, called Windows Setup.
 

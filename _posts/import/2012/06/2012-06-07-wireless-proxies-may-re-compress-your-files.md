@@ -7,6 +7,8 @@ If you're downloading a file with widely-recognized lossy compression, your user
 
 The simplest example is a JPEG. You may get the JPEG you expect, but it's also possible for the proxy to deliver a smaller JPEG than you expect. The cell provider considers it "close enough", and the doubly-compressed JPEG is smaller (and far uglier).
 
+<!--more-->
+
 This may be true of other file types as well, if they're commonly recognized as lossy and computationally easy to re-compress.
 
 I have read reports of T-Mobile and O2 doing this. I think it's been noted with other cell providers, too.

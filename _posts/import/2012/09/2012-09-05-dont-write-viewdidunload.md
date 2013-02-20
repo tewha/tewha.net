@@ -5,6 +5,8 @@ title: "Don't write viewDidUnload"
 ---
 A lot of people misunderstand the point of `viewDidUnload`. That's because despite the name that implies otherwise, it is **not** the counterpart of `viewDidLoad`.
 
+<!--more-->
+
 You should **never** consider a deallocation in `viewDidUnload` a proper balance for an allocation in `viewDidLoad`. In fact, you should probably shouldn't write a `viewDidUnload`.
 
 ## Make your outlets unload automatically ##

@@ -7,6 +7,8 @@ My application includes some XML files that are used while running to map data f
 
 If I accidentally provide bad XML, I don't know until my app tries to parse it. That may be some time into its run. If the XML is processed because of a specific user action, I've broken that specific user action.
 
+<!--more-->
+
 Obviously, I want to test everything in my app before I post it to the iTunes Store. But finding this problem even *hours* later makes it harder to diagnose and fix. I can detect this error immediately (and fix it right away) by adding a build phase to validate my XML.
 
 I added a run script to my target that does this:

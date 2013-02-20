@@ -5,6 +5,8 @@ title: "ADC incidents"
 ---
 In the past, I've tried to avoid using ADC incidents. You get two a year per program, and most years I've avoided using any. This year, I decided to use them both the iOS ones up before renewing.
 
+<!--more-->
+
 The first one was clarification on how to fix a bug demonstrated by some Apple sample code. I got a response, but it wasn't especially satisfying. But that's okay, because in the end I found a way to do a different UI and avoid the bug entirely. Let's call it a draw.
 
 The second one, however, was a mistake in how I was using UIKit that I didn't realize was a mistake. I boiled it down to a [test case][test-case] and submitted the project to Apple. As part of solving the incident, Apple not only explained what I was doing wrong, but provided snippets of code that would work.

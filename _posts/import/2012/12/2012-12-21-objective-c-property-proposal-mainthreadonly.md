@@ -3,11 +3,15 @@ layout: post
 tags : ["Objective-C", "Proposal"]
 title: "Objective-C property proposal: mainthreadonly"
 ---
+I'd like to propose a new language feature for Objective-C, a property attribute that would indicate that a property should only be set from the main thread.
+
 Let me be clear: Objective-C does not do this. But wouldn't it be cool if it did?
 
     @interface CustomView:UIView
     @property (mainthreadonly) NSString *title;
     @end
+
+<!--more-->
 
 The intent is to solve confusion over properties that must be set from the main thread or have no effect.
 

@@ -5,6 +5,7 @@ title: "Completely impossible isn't."
 ---
 An assertion is a check on a condition that you don't expect to ever occur. These checks slow down the program, so they're usually excluded from release builds. They're often used in functions to check the parameters, entry and exit conditions.
 
+<!--more-->
 
 
 For instance, if you have your own sorted list class ((You shouldn't. There are some great implementations of sorted lists, and thousands more poor ones. Guess which one you'll probably write?)), you might do something like <code>assert(list_in_order())</code> as an entry condition on the search  (because the list assumes it's already sorted, and this should never be untrue), and <code>assert(list_in_order())</code> as an exit condition on the insert (because the list is trying to guarantee it will always be sorted).

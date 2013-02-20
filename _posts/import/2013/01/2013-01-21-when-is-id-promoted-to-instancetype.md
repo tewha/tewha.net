@@ -5,6 +5,8 @@ title: "When is id promoted to instancetype?"
 ---
 `instancetype` is a special type that can be returned from an Objective-C method. It specifies that the return is an object of the same type as the receiving class. In some cases, the compiler promotes an `id` return to an instancetype: For instance, despite the definition of `[[NSString alloc] init]`, the compiler knows that it returns an `NSString`.
 
+<!--more-->
+
 When?
 
 This is straight from [Clang Language Extensions](http://clang.llvm.org/docs/LanguageExtensions.html#related-result-types):

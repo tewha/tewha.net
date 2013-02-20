@@ -5,6 +5,8 @@ title: "Leopard: First impressions"
 ---
 I used the default packages and install options because I haven't seen my Office 2004 disc around in a while. The install was slow (I let it check the DVD), but required no intervention.
 
+<!--more-->
+
 I thought Leopard's menu bar was supposed to be ugly! I guess they've toned it down, because this looks pretty good to me. I'm not sold on the dock, but that's okay: I know it can be [turned off][1].
 
 [1]: http://forums.macrumors.com/showthread.php?referrerid=59552&t=374120

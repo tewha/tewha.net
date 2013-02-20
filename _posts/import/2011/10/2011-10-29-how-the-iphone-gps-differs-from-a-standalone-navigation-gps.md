@@ -7,6 +7,8 @@ All models of iPhone since the 3G, as well as the iPad 3G and iPad 2 3G, include
 
 I've heard that this isn't real GPS or that it's somehow inferior to real GPS. AGPS is actually superior to "real" GPS. However, there are ways the iPhone is also inferior to a standalone navigational GPS like a Garmin or Tom Tom. I'm going to explain the differences between them.
 
+<!--more-->
+
 ## Positioning ##
 
 The iPhone includes a regular GPS receiver, just like your standalone GPS. The "assisted" part means the iPhone is able to get a quick lock based on other data sources, such as nearby cell phone towers or WiFi networks.

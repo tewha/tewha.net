@@ -7,6 +7,8 @@ Peter Hosey <a href="http://boredzo.org/blog/archives/2009-11-07/warnings">poste
 
 Rather than set these per project, I have a .xcconfig file I add to my project. I then base each build configuration off this file. Changing the .xcconfig file changes all projects based on it (though with the current Xcode, it's sometimes necessary to reload the project to get the settings to take).
 
+<!--more-->
+
 	//
 	//  MoreWarnings.xcconfig
 	//

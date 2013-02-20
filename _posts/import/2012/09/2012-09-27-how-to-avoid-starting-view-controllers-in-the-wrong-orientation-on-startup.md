@@ -5,6 +5,8 @@ title: "How to avoid starting view controllers in the wrong orientation on start
 ---
 This is a bit obscure, but I ran into it earlier this week. Why would a view controller appear in the wrong orientation on startup?
 
+<!--more-->
+
 When your iPad application first launches it will be in portrait mode, even if it's held in landscape mode. The rotate event is already in the queue and is consumed early enough that it'll never actually be shown like that. So no problem, right?
 
 The problem is that the rotate event will not have been consumed when your `viewWillAppear:` is first called. Opening a new view controller in `viewWillAppear:` (whether using `presentModalViewController:` or a storyboard segue) will open that new view controller in portrait mode, rather than landscape mode. Even that wouldn't be a problem, except iOS will not add a rotate event added for the new view controller.

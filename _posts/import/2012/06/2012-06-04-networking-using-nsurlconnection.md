@@ -15,6 +15,8 @@ What I'm not going to cover:
 - How to retry an operation when a connection becomes available. (Hint: Reachability.)
 - How to abstract this without losing anything important, and bring it all under control. (Hint: Use [AFNetworking](https://github.com/AFNetworking/AFNetworking/).)
 
+<!--more-->
+
 All of these are topics I'll write about in future articles. But today, just the basics!
 
 Also, this code will assuming you're using Automatic Reference Counting. Because [you ought to be](/2012/05/automatic-reference-counting/).

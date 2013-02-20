@@ -5,7 +5,7 @@ title: "New in Leopard: Global Login Items?"
 ---
 Not a lot of details yet, but apparently Mac OS X 10.5 supports Global Login Items. This would be a nice thing to have more information on, as I can imagine needing to remove these.
 
-
+<!--more-->
 
 From Apple's technote on <a href="http://developer.apple.com/technotes/tn2005/tn2083.html#SECGLOBALLOGINITEM">Daemons and Agents</a>:
 

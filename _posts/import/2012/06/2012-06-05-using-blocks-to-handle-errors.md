@@ -7,6 +7,8 @@ In the past, I've talked about [Using blocks to remove redundancy](/2011/07/bloc
 
 Although Objective-C supports exceptions, they're not commonly used. A thrown exception is usually not caught, making it a fatal error.
 
+<!--more-->
+
 [The Objective-C Programming Language](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ObjectiveC/Chapters/ocExceptionHandling.html#//apple_ref/doc/uid/TP30001163-CH13-TPXREF168) describes it thus:
 
 > **Important** In many environments, use of exceptions is fairly commonplace. For example, you might throw an exception to signal that a routine could not execute normally—such as when a file is missing or data could not be parsed correctly. Exceptions are resource-intensive in Objective-C. You should not use exceptions for general flow-control, or simply to signify errors. Instead you should use the return value of a method or function to indicate that an error has occurred, and provide information about the problem in an error object. For more information, see [Error Handling Programming Guide](http://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ErrorHandlingCocoa/ErrorHandling/ErrorHandling.html#//apple_ref/doc/uid/TP40001806).

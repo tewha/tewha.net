@@ -5,7 +5,7 @@ title: "WarpedVisions on Objective-C, square 1"
 ---
 Bruce over on WarpedVisions writes on <a href="http://warpedvisions.org/2008/08/24/objective-c-square-1/"> entering the world of Objective-C and Cocoa development</a>.
 
-
+<!--more-->
 
 I'm barely past square one, but I found this an interesting title. Of course, what Bruce means is the whole Mac OS X development experience, but it's interesting that he worded it in the title as learning Objective-C. It's a simple, concise yet technically inaccurate way to label the knowledge. ((And I'm not intentionally picking on Bruce here. I have said it this way, and probably will again, and he <em>does</em> get it right in the text, as he noted below.))
 

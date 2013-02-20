@@ -8,6 +8,7 @@ If any of these seem wrong, please comment!
 * The Objective-C syntax is strange. It's really not that hard, though, especially once you realize that part of the reason for the design was to make Objective-C a strict superset of C. That means that the C code you throw at it will compile and means the same thing under C as Objective-C.
 
 * Use <code>NULL</code> for pointers (<code>void*</code>) and <code>nil</code> for instances (<code>NSObject*</code>). They're defined the same, this is just convention.
+<!--more-->
 
 * Use properties and stay sane. You can leave the dot syntax alone if you like (though I like it), but it's worth using properties anyway because it forces you to document the assignment mechanism you're using.
 

@@ -9,6 +9,8 @@ In the recent past, [I've mocked Xcode's snapshots][1]. They were sluggish and n
 
 Recent versions of Xcode have been a lot better. I'm not sure when archives really improved, but in the most recent build of Xcode archive takes only a split second. So far, they seem reliable. And they work by storing the source in a private `git` repository, so they're pretty efficient, too. This does **not** affect your real `git` repository, even if you're using `git`. This is entirely separate, deep in Xcode's private directory tree deep in your home folder.
 
+<!--more-->
+
 Xcode can run a behaviour when a build succeeds. You can customize the behaviour in Xcode's Preferences. I noticed a few days ago that there's also an option to **Create snapshot**.
 
 ![Create snapshot](/images/Create-snapshot.png)
