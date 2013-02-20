@@ -67,3 +67,20 @@ html, body {
 	color:#FFF;
 }
 	
+	
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'American Typewriter', serif;
+	font-weight: 100;
+}
+h1 {
+	font-size: 22pt; 
+}
+h2 {
+	font-size: 22pt; 
+}
+h3 {
+	font-size: 20pt; 
+}
+h4, h5, h6 {
+	font-size: 18pt; 
+}
