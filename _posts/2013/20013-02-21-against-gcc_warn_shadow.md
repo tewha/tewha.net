@@ -30,7 +30,7 @@ Despite that, it will function perfectly. The reason for the warning is that it 
 
 This is horribly ugly code. You wouldn't want to write this code. You wouldn't want to read it. But here's the catch: it's perfectly valid to the compiler, and hiding the ugliness *is why `MAX()` exists*.
 
-There's to ways to avoid this. The first is to not use the `MAX()` macro at all:
+There's two ways to avoid this. The first is to not use the `MAX()` macro at all:
 
 	int a = 5;
 	int b = 3;
