@@ -23,10 +23,13 @@ Rather than sort out which of these compiler warnings is valid, a lot of people 
 
     __weak typeof(self) weakSelf = self;
     foo.completionBlock = ^{
-        [weakSelf doSomething];
+    	__strong typeof(self) strongSelf = weakSelf;
+        [strongSelf doSomething];
     };
 
-This breaks the circular reference, and because we've used `__weak` we're assured that `weakSelf` is not a dangling pointer. If `self` no longer exists, `weakSelf` is `nil`.
+This breaks the circular reference, and because we've used `__weak` we're assured that `weakSelf` is not a dangling pointer. If `self` no longer exists, `weakSelf` is `nil`. Reassigning back to a `__strong` variable presents the variable from being deallocated
+
+*In this case, it's not actually necessary to assign `weakSelf` to a `__strong` variable. The recipient of a message won't be deallocated until the message returns. However, if you are doing multiple things with `weakSelf` — such as doing assertions against it and sending it a message — it could become deallocated between those messages.*
 
 The catch? `NSAssert` still uses the `self` variable by name. This led to an interesting question on StackOverflow about [defining a block-scope self][2], a technique that's valid but requires you to remember to do it every time and [causes a warning if GCC_WARN_SHADOW is on][3].
 
@@ -43,15 +46,15 @@ The macro looks like this:
             __PRAGMA_PUSH_NO_EXTRA_ARG_WARNINGS \
             if (!(condition)) { \
                 [[NSAssertionHandler currentHandler] handleFailureInMethod:_cmd \
-                object:weakSelf file:[NSString stringWithUTF8String:__FILE__] \
+                object:strongSelf file:[NSString stringWithUTF8String:__FILE__] \
                     lineNumber:__LINE__ description:(desc), ##__VA_ARGS__]; \
             } \
             __PRAGMA_POP_NO_EXTRA_ARG_WARNINGS \
         } while(0)
 
-This is basically a copy-paste of `NSAssert`, but uses `weakSelf` instead of `self`. (Note, however, that we have *not* pretended to be part of Foundation by using a NS prefix.)
+This is basically a copy-paste of `NSAssert`, but uses `strongSelf` instead of `self`. (Note, however, that we have *not* pretended to be part of Foundation by using a NS prefix.)
 
-To use `BlockAssert`, you need to use the `weakSelf = self` pattern, but you probably already are. And if not, the compiler will throw an error: **Use of undeclared identifier: 'weakSelf'**. You can either adopt `weakSelf` or switch over to `NSAssert`.
+To use `BlockAssert`, you need to use the `weakSelf = self; strongSelf = weakSelf;` pattern, but you probably already are. And if not, the compiler will throw an error: **Use of undeclared identifier: 'strongSelf'**. You can either adopt `strongSelf` or switch over to `NSAssert`.
 
 For example:
 
