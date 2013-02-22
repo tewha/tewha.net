@@ -70,7 +70,7 @@ This last method can be simplified (a little):
 
 This last technique suggests permanent fix: Apple could change the definition of MAX to avoid this (10296999).
 
-The third approach is better: Stop using `GCC_WARN_SHADOW`.
+But really? Just stop using `GCC_WARN_SHADOW`. It's an unnecessary pain in the ass.
 
 These are artificial examples, granted. But let's pull this back to Objective-C, and something a typical Cocoa or Cocoa Touch programmer might have to do:
 
