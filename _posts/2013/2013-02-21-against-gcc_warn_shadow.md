@@ -30,7 +30,7 @@ Despite that, it will function perfectly. The reason for the warning is that it 
 
 This is horribly ugly code. You wouldn't want to write this code. You wouldn't want to read it. But here's the catch: it's perfectly valid to the compiler, and hiding the ugliness *is why `MAX()` exists*.
 
-There's two ways to avoid this. The first is to not use the `MAX()` macro at all:
+There's a few ways to avoid this. The first is to not use the `MAX()` macro at all:
 
     int a = 5;
     int b = 3;
@@ -46,6 +46,29 @@ Or, you could do this:
     int value = MAX(a,temp);
 
 If you're interested in `temp` — if it's a value that has meaning — this is a fine approach. Give it a better name than `temp` and run with it. But if it's a value that has no meaning other than an uninteresting temporary variable on your way to `value`, you've made your code worse.
+
+Next up, you could turn off the warning:
+
+    int a = 5;
+    int b = 3;
+    int c = 4;
+    #pragma GCC diagnostic push
+    #pragma GCC diagnostic ignored "-Wshadow"
+    int value = MAX(a,MAX(b,c));
+    #pragma GCC diagnostic pop
+
+This last method can be simplified (a little):
+
+    #define PUSH_NOSHADOW _Pragma("GCC diagnostic push") _Pragma("GCC diagnostic ignored \"-Wshadow\"")
+    #define POP_NOSHADOW _Pragma("GCC diagnostic pop")
+    int a = 5;
+    int b = 3;
+    int c = 4;
+    PUSH_NOSHADOW
+    int value = MAX(a,MAX(b,c));
+    POP_NOSHADOW
+
+This last technique suggests permanent fix: Apple could change the definition of MAX to avoid this (10296999).
 
 The third approach is better: Stop using `GCC_WARN_SHADOW`.
 
