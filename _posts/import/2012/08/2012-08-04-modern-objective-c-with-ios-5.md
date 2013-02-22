@@ -7,11 +7,11 @@ Modern Objective-C contains subscripting support.
 
 Instead of writing:
 
-	NSString *value = [dict objectForKey: @"Key"];
+    NSString *value = [dict objectForKey: @"Key"];
 
 You can now write:
 
-	NSString *value = dict[@"Key"];
+    NSString *value = dict[@"Key"];
 
 Unfortunately, this requires SDK support. While the OS X SDK provides this support, the iOS 5 SDK one doesn't.
 
@@ -31,13 +31,13 @@ I don't recommend this, however. This will let you use subscript syntax with eve
 
 For instance, this will work:
 
-	NSMutableDictionary *dict = [NSMutableDictionary dictionary];
-	dict[@"foo"] = @"bar";
+    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
+    dict[@"foo"] = @"bar";
 
 This, however, will build but cause a runtime error:
 
-	NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-	NSLog(@"the value of key is %@", userDefaults[@"key"]);
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    NSLog(@"the value of key is %@", userDefaults[@"key"]);
 
 We can do better.
 
@@ -47,23 +47,23 @@ We can also add subscripting support only on types you plan to use that you are 
 
 Use a header like this:
 
-	#if __IPHONE_OS_VERSION_MAX_ALLOWED < 60000
-	@interface NSDictionary(subscripts)
-	- (id)objectForKeyedSubscript:(id)key;
-	@end
-	
-	@interface NSMutableDictionary(subscripts)
-	- (void)setObject:(id)obj forKeyedSubscript:(id <NSCopying>)key;
-	@end
-	
-	@interface NSArray(subscripts)
-	- (id)objectAtIndexedSubscript:(NSUInteger)idx;
-	@end
-	
-	@interface NSMutableArray(subscripts)
-	- (void)setObject:(id)obj atIndexedSubscript:(NSUInteger)idx;
-	@end
-	#endif
+    #if __IPHONE_OS_VERSION_MAX_ALLOWED < 60000
+    @interface NSDictionary(subscripts)
+    - (id)objectForKeyedSubscript:(id)key;
+    @end
+    
+    @interface NSMutableDictionary(subscripts)
+    - (void)setObject:(id)obj forKeyedSubscript:(id <NSCopying>)key;
+    @end
+    
+    @interface NSArray(subscripts)
+    - (id)objectAtIndexedSubscript:(NSUInteger)idx;
+    @end
+    
+    @interface NSMutableArray(subscripts)
+    - (void)setObject:(id)obj atIndexedSubscript:(NSUInteger)idx;
+    @end
+    #endif
 
 This will add subscripting support only to `NSArray` and `NSDictionary`. I don't know what other classes Apple provides subscripting support for via arclite; if there's a list, I haven't found it yet.
 

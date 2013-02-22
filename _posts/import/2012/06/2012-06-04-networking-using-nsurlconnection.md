@@ -56,40 +56,40 @@ But we'll get to AFNetworking in a future post.
 
 Assuming you only have a single transfer going on at once, your code should look a bit like this:
 
-	- (void)doNetworkThing {
-	
-		NSURL *URL = [NSURL URLWithString: @"http://tewha.net/"];
-		NSURLRequest *request = [[NSURLRequest alloc] initWithURL: URL];
-		NSURLConnection *connection = [[NSURLConnection alloc]
-		                               initWithURLRequest: request];
-	
-		receivedData = [[NSMutableData alloc] init]; // should be a class member
-		[connection start];
-	}
-	
-	- (void)connection:(NSURLConnection *)connection
-	didReceiveResponse:(NSURLResponse *)response {
-		[receivedData setLength:0];
-	}
-	
-	- (void)connection:(NSURLConnection *)connection
-	    didReceiveData:(NSData *)data {
-		[receivedData appendData:data];
-	}
-	
-	- (void)connection:(NSURLConnection *)connection
-	  didFailWithError:(NSError *)error {
-		// do something with error here
-	}
-	
-	- (void)connectionDidFinishLoading:(NSURLConnection *)connection {
-		dispatch_async(someQueue, ^{
-			// do something that takes a long time with receivedData here
-			dispatch_async( dispatch_get_main_queue(), ^{
-				// access the UI here
-			});
-		});
-	}
+    - (void)doNetworkThing {
+    
+        NSURL *URL = [NSURL URLWithString: @"http://tewha.net/"];
+        NSURLRequest *request = [[NSURLRequest alloc] initWithURL: URL];
+        NSURLConnection *connection = [[NSURLConnection alloc]
+                                       initWithURLRequest: request];
+    
+        receivedData = [[NSMutableData alloc] init]; // should be a class member
+        [connection start];
+    }
+    
+    - (void)connection:(NSURLConnection *)connection
+    didReceiveResponse:(NSURLResponse *)response {
+        [receivedData setLength:0];
+    }
+    
+    - (void)connection:(NSURLConnection *)connection
+        didReceiveData:(NSData *)data {
+        [receivedData appendData:data];
+    }
+    
+    - (void)connection:(NSURLConnection *)connection
+      didFailWithError:(NSError *)error {
+        // do something with error here
+    }
+    
+    - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
+        dispatch_async(someQueue, ^{
+            // do something that takes a long time with receivedData here
+            dispatch_async( dispatch_get_main_queue(), ^{
+                // access the UI here
+            });
+        });
+    }
 
 See also:
 

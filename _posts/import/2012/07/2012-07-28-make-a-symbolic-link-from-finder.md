@@ -15,10 +15,10 @@ You can't create symlinks in Finder with what Apple provides you, but you **can*
 4. Shell: **/bin/bash** (Even if you're using another shell as your default shell, this script is for bash.)
 5. Pass input: **as arguments**.
 6. Use this script:<pre>
-	while [ $# -ne 0 ]; do
-		ln -s "$1" "$1 symlink"
-		shift
-	done</pre>
+    while [ $# -ne 0 ]; do
+        ln -s "$1" "$1 symlink"
+        shift
+    done</pre>
 7. The result should look like this:<br/>![Dropbox Workflow](/Images/Make-Symlink-Workflow.png)
 
 Alternately, you can [download my finished service][3] from Dropbox. It should be stored in **~/Library/Services**.

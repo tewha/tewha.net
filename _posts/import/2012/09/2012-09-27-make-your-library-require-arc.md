@@ -11,10 +11,10 @@ I'm going to discuss how to do so, and why it's a good idea.
 
 Here's an example, which I submitted to AFNetworking:
 
-	#if !__has_feature(objc_arc)
-	#error AFNetworking must be built with ARC.
-	// You can turn on ARC for only AFNetworking files by adding -fobjc-arc to the build phase for each of its files.
-	#endif
+    #if !__has_feature(objc_arc)
+    #error AFNetworking must be built with ARC.
+    // You can turn on ARC for only AFNetworking files by adding -fobjc-arc to the build phase for each of its files.
+    #endif
 
 When the user builds the unit, the error will be highlighted. They'll see the comment just below, explaining how to resolve the problem.
 

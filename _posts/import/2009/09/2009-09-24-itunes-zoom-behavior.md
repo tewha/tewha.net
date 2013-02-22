@@ -13,6 +13,6 @@ iTunes 9.0.1 changed it back to the old behavior. Many people were happy, I imag
 
 It turns out you can get the click-to-zoom behavior back:
 
-	defaults write com.apple.iTunes zoom-to-window -bool true
+    defaults write com.apple.iTunes zoom-to-window -bool true
 
 Tip of the hat to <a href="http://twitter.com/zadr ">zadr</a> on Twitter for <a href="http://twitter.com/zadr/status/4300874028">this tweet</a>.

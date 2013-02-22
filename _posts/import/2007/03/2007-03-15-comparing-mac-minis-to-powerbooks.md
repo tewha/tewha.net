@@ -9,13 +9,13 @@ An Xcode build on my personal PowerBook (it has 768MB of RAM), with a bunch of a
 
 <!--more-->
 
-	VM: 5.81G +  150M   220631(1) pageins, 60523(0) pageouts
+    VM: 5.81G +  150M   220631(1) pageins, 60523(0) pageouts
 
 The highest number I saw there was about 200, and it appeared only once or twice. The vast majority of the build, it was 0.
 
 An Xcode build on the Intel Mac Mini (it has 512MB of RAM), with only Finder and Xcode running:
 
-	VM: 8.93G + 7.19M   760989(93) pageins, 277742(22) pageouts
+    VM: 8.93G + 7.19M   760989(93) pageins, 277742(22) pageouts
 
 The highest number I saw was 3,180. Usually, it hovered around 100-200, with occasional drops to 0 depending on the phase the build was in.
 

@@ -25,7 +25,7 @@ Clearing out cached information fits better into `didReceiveMemoryWarning`, so y
 
 > You can override this method to release any additional memory used by your view controller. If you do, your implementation of this method must call the super implementation at some point to allow the view controller to release its view. If your view controller holds references to views in the view hierarchy, you should release those references in the `viewDidUnload` method instead.
 
-Not only does writing your cache purging in 	`didReceiveMemoryWarning` better suit the documentation, but you'll be less confused when you read `didReceiveMemoryWarning` in your code than `viewDidUnload`.
+Not only does writing your cache purging in     `didReceiveMemoryWarning` better suit the documentation, but you'll be less confused when you read `didReceiveMemoryWarning` in your code than `viewDidUnload`.
 
 I'm not taking a ridiculous position here, either. `viewDidUnload` is deprecated with iOS 6.
 
