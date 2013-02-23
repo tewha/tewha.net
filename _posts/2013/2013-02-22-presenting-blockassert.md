@@ -15,7 +15,7 @@ An assertion is a predicate (a true–false statement) placed in a program to in
 
 `NSAssert` and `NSCAssert` are Foundation's assertion macros. They're kind of like C's assert macro, but provide an error message in the same form as `NSLog`. The difference between them is that `NSAssert` references `self`, which is only defined for Objective-C methods. `NSCAssert`, then, is `NSAssert` for C functions.
 
-Blocks are often defined in Objective-C methods, but they're not themselves Objective-C methods. They're more like C functions. Anything you want from the method scope are captured into the block expression. This means that `NSAssert` can access `self`. The block holds a strong reference to `self`, which can sometimes cause a circular reference.
+Blocks are often defined in Objective-C methods, but they're not themselves Objective-C methods. Although they're actually implemented as objects of their own, the syntax is more like a C functions. They don't define self, though anything you want from the method scope are captured strongly into the block expression. This means that if you use `NSAssert` you'll be capturing `self`. But that strong reference can cause a circular reference.
 
 A circular reference is formed the block owns the object and the object owns something that owns the block. None of the memory will ever be cleaned up. Even you *do* clean up the memory, you'll get a compiler warning that you need to ignore.
 
