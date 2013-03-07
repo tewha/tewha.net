@@ -26,7 +26,7 @@ Depending on how fast your Mac is, you may need to increase the sleep value. If 
 
 Next, drag a Launch Application action. Pick Xcode.
 
-![Relaunch Workflow](/Images/Relaunch-Xcode.png)
+![Relaunch Workflow](/images/Relaunch-Xcode.png)
 
 *In this workflow, I also remove the DerivedData directory.*
 

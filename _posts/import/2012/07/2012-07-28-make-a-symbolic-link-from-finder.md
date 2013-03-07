@@ -19,17 +19,17 @@ You can't create symlinks in Finder with what Apple provides you, but you **can*
         ln -s "$1" "$1 symlink"
         shift
     done</pre>
-7. The result should look like this:<br/>![Dropbox Workflow](/Images/Make-Symlink-Workflow.png)
+7. The result should look like this:<br/>![Dropbox Workflow](/images/Make-Symlink-Workflow.png)
 
 Alternately, you can [download my finished service][3] from Dropbox. It should be stored in **~/Library/Services**.
 
 You should now have a Make SymLink command when you right- or control-click a file or folder in the Finder:
 
-![Make SymLink menu command](/Images/Make-Symlink-Menu.png)
+![Make SymLink menu command](/images/Make-Symlink-Menu.png)
 
 You can even add a keyboard shortcut for it in System Preferences:
 
-![Services Shortcut Key](/Images/Make-Symlink-Shortcut.png)
+![Services Shortcut Key](/images/Make-Symlink-Shortcut.png)
 
 *Remember:* A symlink does not follow the original file if the original file moves on your hard drive.
 
