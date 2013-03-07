@@ -7,6 +7,8 @@ When you start using Grand Central Dispatch or `NSOperation`, you'll want to per
 
 This is a simple and obvious technique, but it took me a while to adopt it: You can do by asserting with `NSAssert` or `NSCAssert` for `[NSThread isMainThread]`, just as you would assert any other condition.
 
+<!--more-->
+
 Like this:
 
     - (void)updateUI {
