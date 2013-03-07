@@ -7,6 +7,8 @@ Over the years I have tweaked which compiler warnings I use. There's one in part
 
 `GCC_WARN_SHADOW` is essentially drawing your attention to you *possibly* doing something other than you intended. This is like most warnings, but the difference is that the behaviour `GCC_WARN_SHADOW` is blocking is very useful.
 
+<!--more-->
+
 This is the sort of things the more paranoid compiler warnings are good at. The downside is that it's difficult (not impossible) to drop a particular warning to indicate that you know what you're doing.
 
 With `GCC_WARN_SHADOW` on, this code will generate a warning:
