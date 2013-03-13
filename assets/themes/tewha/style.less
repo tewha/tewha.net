@@ -1,0 +1,201 @@
+@body-font: "Helvetica Neue",Helvetica,Arial,sans-serif;
+@code-font: Menlo,Monaco,"Courier New",monospace;
+@headline-font: 'American Typewriter', serif;
+
+body {
+	font-family: @body-font;
+	font-size: 14pt;
+	background-color: #f2f2f4;
+	margin: 0;
+}
+
+.content {
+	max-width: 800pt;
+	margin:3pt auto;
+}
+
+pre, code {
+	font-family: @code-font;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: @headline-font;
+	font-weight: 400;
+	margin: 0;
+}
+h1 {
+	font-size: 22pt; 
+}
+h2 {
+	font-size: 22pt; 
+}
+h3 {
+	font-size: 20pt; 
+}
+h4, h5, h6 {
+	font-size: 18pt; 
+}
+
+a:link,a:visited {
+	color:#0088cc;
+}
+a:hover, a:active {
+	color:#005580;
+}
+
+.navbar, .pagination {
+	ul {
+		list-style: none;
+		li {
+			display: inline;
+		}
+	}
+}
+
+.navbar {
+	.container {
+		max-width: 800pt;
+		margin:3pt auto;
+	}
+	background-color: #333;
+	font-size: 12pt;
+	.brand {
+		font-family: @headline-font;
+		font-size: 18pt;
+	}
+	a:link, a:visited, a:hover, a:active {
+		text-decoration: none;
+		color: #fff;
+	}
+	ul {
+		display: inline;
+		a:link, a:visited {
+			color:#888;
+		}
+		a:hover, a:active {
+			color:#fff;
+		}
+		li {
+			padding-left: 6pt;
+		}
+	}
+}
+
+.pagination {
+	display: table;
+	font-size: 18pt;
+	margin: 0 auto;
+	a:link, a:visited, a:hover, a:active {
+		text-decoration: none;
+		color: #888;
+	}
+	a:hover, a:active {
+		color: #f00;
+		background-color: #f3f3f3;
+	}
+	.disabled {
+		color: #aaa;
+	}
+	ul li {
+		font-size: 14pt;
+	}
+}
+
+pre {
+	font-size:12pt;
+	background-color: #f3f3f3;
+}
+pre code {
+	color:#000;
+}
+.navbar, .page-header, .row, pre {
+	margin: 0;
+	padding: 6pt 24pt;
+}
+
+.page-header {
+	background-color: #f8f8f8;
+	h1 {
+		font-size: 29pt;
+		margin: 10pt 0;
+		small {
+			color: #aaa;
+			font-size: 18pt;
+		}
+	}
+}
+
+.row {
+	background-color: #fff;
+}
+.row::before, .row::after {
+	display: table;
+	content: "";
+}
+.row::after {
+	clear:both;
+}
+
+.content {
+	p {
+		margin: 12pt 0;
+	}
+	p:first-of-type {
+		margin-top: 6pt;
+	}
+	p:last-of-type {
+		margin-bottom: 16pt;
+	}
+}
+
+.content {
+	line-height: 160%;
+}
+
+.title {
+	h1, h2 {
+		margin:0;
+	}
+	p.meta {
+		font-size:12pt;
+		margin:0;
+	}
+}
+
+.more {
+	font-size: 12pt;
+}
+.post {
+	margin: 12pt 0;
+}
+.main {
+	float:left;
+	width: 600pt;
+}
+.sidebar {
+	h4 {
+		font-family: @body-font;
+		font-weight: normal;
+		font-size: 14pt;
+		margin: 0;
+	}
+	float:left;
+	width:130pt;
+	padding-left:22pt;
+	margin-top:6pt;
+	.tag_box {
+		list-style: none;
+		padding-left: 12pt;
+		margin-top: 0;
+		span {
+			font-size: 9pt;
+		}
+	}
+	.date {
+		color: #888;
+		padding-left: 12pt;
+	}
+}
+
+footer {
+	text-align: center;
+}

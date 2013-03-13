@@ -2,6 +2,7 @@
 layout: page
 title: Tewha.net
 tagline: Mostly about iOS.
+theme: tewha
 ---
 
 <div id="home">
@@ -16,14 +17,19 @@ tagline: Mostly about iOS.
     </div>
   {% endfor %}
 
-  <!-- links to prev and next pages for browsing thru archives -->
-  {% if paginator.previous_page == 1 %}
-    <span id="newer"><a href="/">&laquo;&laquo; Newer Entries</a></span>
-  {% elsif paginator.previous_page %}
-    <span id="newer"><a href="/page{{ paginator.previous_page }}">&laquo;&laquo; Newer Entries</a></span>
-  {% endif %}
-  {% if paginator.next_page %}
-    <span id="older"><a href="/page{{ paginator.next_page }}">Older Entries &raquo;&raquo;</a></span>
-  {% endif %}
+  <hr>
+    <div class="pagination">
+      <ul>
+      {% if paginator.previous_page == 1 %}
+        <li class="newer"><a href="/">&laquo;&laquo; Newer Entries</a></li>
+      {% elsif paginator.previous_page %}
+        <li class="newer"><a href="/page{{ paginator.previous_page }}">&laquo;&laquo; Newer Entries</a></li>
+      {% endif %}
+      {% if paginator.next_page %}
+        <li class="prev"><a href="/page{{ paginator.next_page }}">Older Entries &raquo;&raquo;</a></li>
+      {% endif %}
+    </ul>
+  </div>
+<br>
 
 </div>
