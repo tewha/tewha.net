@@ -3,7 +3,7 @@ layout: post
 tags : ["Automatic Update", "Software Development", "User Interface"]
 title: "Your app has a job, and it isn't updating itself."
 ---
-WarpedVisions has an article on <a href="http://warpedvisions.org/2007/11/14/boot-to-windows-do-not-pass-go/">automatic updates imposing on users</a>.
+WarpedVisions has an article on [automatic updates imposing on users][1].
 
 I've done some thinking on this subject.
 
@@ -38,3 +38,5 @@ If the user doesn't need to update immediately, offer the update in a prominent 
 Download the update yourself. Whether automatically or on-demand, apply it yourself.
 
 The decision whether to apply the update can be a painful one for users. It's your job as a developer to provide the information users need to make that decision, and to do it in a way that encourages (rather than demands) the decision be made, and to eliminate any unnecessary pain associated with the update.
+
+[1]: http://warpedvisions.org/2007/11/14/boot-to-windows-do-not-pass-go

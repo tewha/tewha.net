@@ -17,4 +17,7 @@ I'm less thrilled with Xcode's documentation viewer. It feels like a really poor
 
 In about a day, I created four screens and linked them all together. That doesn't sound horribly impressive, but it felt easy. Granted, I've previously spent a few hours figuring out `UINavigationController`, but things were actually simpler than I had understood. Finding things took a while, but they were generally hidden in plain sight. The few times I violated something in the runtime, the error message was simple, direct and accurate.
 
-I do wish <a href="http://www.sqlite.org/">SQLite</a> was a more recent version. I would love to use <a href="http://www.sqlite.org/c3ref/open.html">sqlite3_open_v2</a> in some of this code, especially the `SQLITE_OPEN_READONLY` flag.
+I do wish [SQLite][1] was a more recent version. I would love to use [sqlite3_open_v2][2] in some of this code, especially the `SQLITE_OPEN_READONLY` flag.
+
+[1]: http://www.sqlite.org
+[2]: http://www.sqlite.org/c3ref/open.html

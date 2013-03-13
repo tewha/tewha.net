@@ -92,4 +92,6 @@ With blocks, the code looks like this:
 
 Since the block by default has read-only access to any variable it wants as long as it's in scope, there's no need to pass parameters into the block.
 
-As I said in the introduction, blocks are a lot more powerful than this. See Apple's <a href="http://developer.apple.com/library/ios/#DOCUMENTATION/Cocoa/Conceptual/Blocks">Block Programming Topics</a> for more about that. However, they're a great tool for small problems as well that you shouldn't overlook.
+As I said in the introduction, blocks are a lot more powerful than this. See Apple's [Block Programming Topics][1] for more about that. However, they're a great tool for small problems as well that you shouldn't overlook.
+
+[1]: http://developer.apple.com/library/ios/#DOCUMENTATION/Cocoa/Conceptual/Blocks

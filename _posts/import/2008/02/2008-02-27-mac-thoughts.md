@@ -5,7 +5,7 @@ title: ".Mac thoughts"
 ---
 So I'm about five days into my free .Mac trial, and I thought I'd write up some thoughts.
 
-I pay about $60 per year for 500 GB of storage and 5 TB of bandwidth from <a href="http://www.dreamhost.com/r.cgi?67943">DreamHost</a>. .Mac costs $100 per year. For that much, it should be really, really special. On a strictly numerical level, DreamHost beats .Mac. Now, it's true that DreamHost's reputation for reliability has taken a beating the last year or so, but for $6 per month I can accept a few days per month of down time. And it's nowhere <i>near</i> that bad; it seems to be less than one evening every month or two.
+I pay about $60 per year for 500 GB of storage and 5 TB of bandwidth from [DreamHost][1]. .Mac costs $100 per year. For that much, it should be really, really special. On a strictly numerical level, DreamHost beats .Mac. Now, it's true that DreamHost's reputation for reliability has taken a beating the last year or so, but for $6 per month I can accept a few days per month of down time. And it's nowhere *near* that bad; it seems to be less than one evening every month or two.
 
 <!--more-->
 
@@ -22,3 +22,5 @@ At first glance, syncing seemed to work for me. But then I ran into an odd probl
 Oh, wait. That's not going to work.
 
 Well, maybe I'll check out .Mac in another few years. But for now, I can't imagine spending $100 on it. I want something that takes the gremlins out of a multi-machine existence, rather than adding bigger, more annoying ones. I feel like I started with a mogwai and .Mac fed it after midnight. Maybe if I was a bigger webmail user or wasn't comfortable setting up things like WordPress it would be more interesting, but I'm not that guy.
+
+[1]: http://www.dreamhost.com/r.cgi?67943

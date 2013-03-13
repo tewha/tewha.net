@@ -3,7 +3,7 @@ layout: post
 tags : ["clang", "Compiler", "gcc", "Warnings", "Xcode"]
 title: "Better Xcode warnings through .xcconfig files"
 ---
-Peter Hosey <a href="http://boredzo.org/blog/archives/2009-11-07/warnings">posted a list of warnings he turns on</a>. Here's the warnings I turn on. It's mostly the same list.
+Peter Hosey [posted a list of warnings he turns on][1]. Here's the warnings I turn on. It's mostly the same list.
 
 Rather than set these per project, I have a .xcconfig file I add to my project. I then base each build configuration off this file. Changing the .xcconfig file changes all projects based on it (though with the current Xcode, it's sometimes necessary to reload the project to get the settings to take).
 
@@ -50,3 +50,5 @@ A few notes:
 * `RUN_CLANG_STATIC_ANALYZER` will roughly double (or more) the time your project takes to compile. I consider this a good trade: I rarely trigger a static analyzer warning now, but when I do I want to fix it.
 * Also note the `GCC_TREAT_WARNINGS_AS_ERRORS`. If you are applying these to an existing project, you may start with hundreds of warnings. You'll probably want to start with this set to `NO` and change it to `YES` after you've fixed the warnings.
 * Remember, too, that this changes the **defaults** for settings. You can still specify different settings in the build configuration! If the static analyzer is taking too long to run in one project, just turn it off in that one project but leave the .xcconfig file alone!
+
+[1]: http://boredzo.org/blog/archives/2009-11-07/warnings

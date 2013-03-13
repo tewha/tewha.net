@@ -15,4 +15,7 @@ It turns out you can get the click-to-zoom behavior back:
 
     defaults write com.apple.iTunes zoom-to-window -bool true
 
-Tip of the hat to <a href="http://twitter.com/zadr ">zadr</a> on Twitter for <a href="http://twitter.com/zadr/status/4300874028">this tweet</a>.
+Tip of the hat to [zadr][1] on Twitter for [this tweet][2].
+
+[1]: http://twitter.com/zadr
+[2]: http://twitter.com/zadr/status/4300874028
