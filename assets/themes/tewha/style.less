@@ -115,6 +115,7 @@ a:hover, a:active {
 pre {
 	font-size:12pt;
 	background-color: #f3f3f3;
+	overflow-x: auto;
 }
 pre code {
 	color:#000;
@@ -210,4 +211,16 @@ pre code {
 
 footer {
 	text-align: center;
+}
+
+pre::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 11px;
+    height: 11px;
+}
+
+pre::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 2px solid white; /* should match background, can't be transparent */
+    background-color: rgba(0, 0, 0, .3);
 }
