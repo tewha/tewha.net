@@ -5,5 +5,13 @@ theme :
 {% include JB/setup %}
 {% include themes/tewha/default.html %}
 <footer>
-	<p>&copy; 2007-{{ site.time | date: '%Y' }} {{ site.author.name }}</p>
+  <nav>
+	<ul>
+		{% assign pages_list = site.pages %}
+		{% assign group = 'navigation' %}
+		{% include JB/pages_list %}
+	</ul>
+  </nav>
+  <p>&copy; 2007-{{ site.time | date: '%Y' }} {{ site.author.name }}<br>
+  <small><a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></small></p>
 </footer>

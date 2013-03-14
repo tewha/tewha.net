@@ -1,6 +1,7 @@
 @body-font: "Helvetica Neue",Helvetica,Arial,sans-serif;
 @code-font: Menlo,Monaco,"Courier New",monospace;
 @headline-font: 'American Typewriter', serif;
+@dark-background: #333;
 
 
 h1,h2,h3,h4,h5,h6 {
@@ -26,7 +27,7 @@ body {
 	>header>h1 {
 		padding: 12pt;
 		color: #eee;
-		background-color: #333;
+		background-color: @dark-background;
 		small {
 			font-weight: 200;
 			font-size: 11pt;
@@ -53,8 +54,33 @@ body {
 			}
 		}
 	}
-	>footer {
+	>footer, >section>footer {
+		padding: 5pt;
+		color: #aaa;
+		a {
+			text-decoration: none;
+		}
+		a:link,a:visited {
+			color:#bbb;
+		}
+		a:hover, a:active {
+			color:#000;
+		}
 		text-align: center;
+		ul {
+			padding: 0;
+			list-style: none;
+			li {
+				margin: 0 5pt;
+				display:inline;
+			}
+		}
+		nav ul li a {
+			border-style:solid;
+			border-width:1px;
+			padding:2pt 4pt;
+			border-radius:4pt;
+		}				
 	}
 	>aside {
 		margin: 0 auto;
@@ -85,8 +111,20 @@ article {
 	background-color: white;
 	padding: 12pt;
 	margin: 0 auto;
+	>header {
+		.meta {
+			color: #aaa;
+			font-size: 10pt;
+		}
+	}
 	>footer {
 		text-align: left;
+	}
+	p {
+		line-height: 160%;
+	}
+	pre {
+		line-height: 150%;
 	}
 }
 h1 {
@@ -109,46 +147,16 @@ a:hover, a:active {
 	color:#005580;
 }
 
-.navbar, .pagination, .sidebar {
+section>footer {
 	ul {
 		margin: 0;
 		padding: 0;
 		list-style: none;
 		li {
 			display: inline;
+			font-size: 14pt;
 		}
 	}
-}
-
-.navbar {
-	.container {
-		margin:3pt auto;
-	}
-	background-color: #333;
-	font-size: 12pt;
-	.brand {
-		font-family: @headline-font;
-		font-size: 18pt;
-	}
-	a:link, a:visited, a:hover, a:active {
-		text-decoration: none;
-		color: #fff;
-	}
-	ul {
-		display: inline;
-		a:link, a:visited {
-			color:#888;
-		}
-		a:hover, a:active {
-			color:#fff;
-		}
-		li {
-			padding-left: 6pt;
-		}
-	}
-}
-
-.pagination {
 	display: table;
 	font-size: 18pt;
 	margin: 0 auto;
@@ -162,9 +170,6 @@ a:hover, a:active {
 	}
 	.disabled {
 		color: #aaa;
-	}
-	ul li {
-		font-size: 14pt;
 	}
 }
 
@@ -186,16 +191,19 @@ pre code {
 }
 
 .tag_box {
+	padding: 0;
+	margin: 0;
 	list-style: none;
-	padding-left: 12pt;
 	margin-top: 0;
 	display: inline;
 	font-size: 9pt;
 	ul {
 		padding: 0;
+		margin: 0;
 	}
 	li {
 		display: inline;
+		white-space: nowrap;
 		background-color: #fff;
 		a {
 			border-style:solid;

@@ -10,21 +10,20 @@ theme: tewha
     <article>
       <header>
         <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-        <p class="meta">{{ page.date | date: "%B %e, %Y" }}</p>
       </header>
       {{ page.content | postmorefilter: page.url, "Read the rest of this entry" }}
     </article>
   {% endfor %}
 
-    <div class="pagination">
+  <footer>
       <ul>
-      {% if paginator.previous_page == 1 %}
-        <li class="newer"><a href="/">&laquo;&laquo; Newer Entries</a></li>
-      {% elsif paginator.previous_page %}
-        <li class="newer"><a href="/page{{ paginator.previous_page }}">&laquo;&laquo; Newer Entries</a></li>
-      {% endif %}
-      {% if paginator.next_page %}
-        <li class="prev"><a href="/page{{ paginator.next_page }}">Older Entries &raquo;&raquo;</a></li>
-      {% endif %}
-    </ul>
-  </div>
+        {% if paginator.previous_page == 1 %}
+          <li class="newer"><a href="/">&laquo;&laquo; Newer Entries</a></li>
+        {% elsif paginator.previous_page %}
+          <li class="newer"><a href="/page{{ paginator.previous_page }}">&laquo;&laquo; Newer Entries</a></li>
+        {% endif %}
+        {% if paginator.next_page %}
+          <li class="prev"><a href="/page{{ paginator.next_page }}">Older Entries &raquo;&raquo;</a></li>
+        {% endif %}
+      </ul>
+  </footer>
