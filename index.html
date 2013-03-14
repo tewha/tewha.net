@@ -5,19 +5,17 @@ tagline: Mostly about iOS.
 theme: tewha
 ---
 
-<div id="home">
   <!-- iterate through the posts on this page -->
   {% for page in paginator.posts %}
-    <div class="post">
-      <div class="title">
+    <article>
+      <header>
         <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
         <p class="meta">{{ page.date | date: "%B %e, %Y" }}</p>
-      </div>
+      </header>
       {{ page.content | postmorefilter: page.url, "Read the rest of this entry" }}
-    </div>
+    </article>
   {% endfor %}
 
-  <hr>
     <div class="pagination">
       <ul>
       {% if paginator.previous_page == 1 %}
@@ -30,7 +28,3 @@ theme: tewha
       {% endif %}
     </ul>
   </div>
-  <hr>
-<br>
-
-</div>
