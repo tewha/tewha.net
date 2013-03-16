@@ -24,7 +24,7 @@ body {
 	margin: 5pt auto;
 	max-width: 400pt;
 	>header>h1 {
-		padding: 12pt;
+		padding: 24pt;
 		color: #eee;
 		background-color: @dark-background;
 		small {
@@ -113,9 +113,25 @@ body {
 }
 
 article {
+	padding-top: 0pt;
+}
+
+article:first-of-type {
+	padding-top: 24pt;
+}
+
+article {
 	max-width: 600pt;
 	background-color: white;
-	padding: 12pt;
+	>header, >h2, >h3, >h4, >pre, >p, >footer, >ul, >ol {
+		padding-left: 24pt;
+		padding-right: 24pt;
+	}
+	>ul, >ol {
+		margin-left: 24pt;
+		margin-right: 24pt;
+	}
+	padding-bottom: 24pt;
 	margin: 0 auto;
 	>header {
 		.meta {
@@ -133,6 +149,7 @@ article {
 		line-height: 150%;
 	}
 }
+
 h1 {
 	font-size: 22pt; 
 }
@@ -187,7 +204,7 @@ pre {
 pre code {
 	color:#000;
 }
-.navbar, .page-header, .row, pre {
+.navbar, .page-header, .row {
 	margin: 0;
 	padding: 6pt 24pt;
 }
