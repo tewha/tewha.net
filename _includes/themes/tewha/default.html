@@ -26,13 +26,24 @@
   </head>
 
   <body>
-
 	<header>
-		<h1><a href="{{ HOME_PATH }}">{{ site.title }} {% if site.tagline %} <small>{{ site.tagline }}</small>{% endif %}</a><a href="{{ production_url }}/atom.xml"><img class="rss" src="{{ production_url }}/assets/themes/tewha/feed-icon-28x28.png" width="28" height="28"></a>
+		<h1><a href="{{ HOME_PATH }}">{{ site.title }} {% if site.tagline %} <small>{{ site.tagline }}</small>{% endif %}</a><a href="{{ production_url }}/atom.xml" class="rss"><img src="{{ production_url }}/assets/themes/tewha/feed-icon-28x28.png" width="28" height="28"></a>
 </h1>
 	</header>
 	
 	{{ content }}
+
+	<footer>
+	  <nav>
+		<ul>
+			{% assign pages_list = site.pages %}
+			{% assign group = 'navigation' %}
+			{% include JB/pages_list %}
+		</ul>
+	  </nav>
+	  <p>Copyright &copy; 2007-{{ site.time | date: '%Y' }} {{ site.author.name }}<br>
+	  <small><a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.</small></p>
+	</footer>
 
     {% include JB/analytics %}
   </body>

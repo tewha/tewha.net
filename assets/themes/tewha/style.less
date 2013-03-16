@@ -10,12 +10,11 @@ h1,h2,h3,h4,h5,h6 {
 	margin: 0;
 }
 
-
-
 body {
 	font-family: @body-font;
 	font-size: 14pt;
 }
+
 pre, code {
 	font-family: @code-font;
 }
@@ -43,6 +42,8 @@ body {
 		}
 		.rss {
 			float: right;
+			width: 28px;
+			height: 28px;
 		}
 	}
 	>header {
@@ -53,6 +54,11 @@ body {
 				display: inline;
 			}
 		}
+	}
+	>section, >header {
+		-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+		-moz-box-shadow:    0px 0px 5px rgba(0, 0, 0, 1);
+		box-shadow:         0px 0px 5px rgba(0, 0, 0, 1);
 	}
 	>footer, >section>footer {
 		padding: 5pt;
