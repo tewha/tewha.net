@@ -12,7 +12,8 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="{{ ASSET_PATH }}/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" type="text/css" media="all" href="{{ ASSET_PATH }}/style.css">
+	<link rel="stylesheet" type="text/css" href="{{ ASSET_PATH }}/emphasize.css" />
 
     <!-- Le fav and touch icons -->
   <!-- Update these with your own images
@@ -23,6 +24,21 @@
   -->
 
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script>
+		window.onload = function() {
+			$("pre").addClass("emphasize obj-c");
+			var _emphasize = _emphasize || [];
+			(function() {
+				var t   = document.createElement('script');
+				t.type  = 'text/javascript';
+				t.async = true;
+				t.id    = 'emphasize';
+				t.src = 'https://raw.github.com/samvermette/emphasize.js/master/emphasize.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(t, s);
+			})();
+		};
+	</script>
   </head>
 
   <body>
