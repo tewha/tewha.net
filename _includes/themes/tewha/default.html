@@ -33,7 +33,7 @@
 				t.type  = 'text/javascript';
 				t.async = true;
 				t.id    = 'emphasize';
-				t.src = 'https://raw.github.com/samvermette/emphasize.js/master/emphasize.js';
+				t.src = '{{ ASSET_PATH }}/emphasize.js';
 				var s = document.getElementsByTagName('script')[0];
 				s.parentNode.insertBefore(t, s);
 			})();
