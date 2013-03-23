@@ -1,8 +1,21 @@
 @body-font: "Helvetica Neue",Helvetica,Arial,sans-serif;
 @code-font: Menlo,Monaco,"Courier New",monospace;
 @headline-font: 'American Typewriter', serif;
-@dark-background: #333;
 
+@gutter-color: hsl(28, 18%, 75%);
+@mast-background: hsl(0, 13%, 20%);
+@mast-text: hsl(0, 0%, 93%);
+@mast-link: hsl(0, 0%, 100%);
+@mast-hover: hsl(0, 0%, 100%);
+@shadow-color: @mast-background;
+@chrome-text-color: hsl(15, 9%, 45%);
+@chrome-link-color: hsl(16, 41%, 28%);
+@chrome-hover-color: hsl(0, 0%, 0%);
+@body-link-color: hsl(202, 81%, 44%);
+@body-hover-color: hsl(202, 81%, 30%);
+@body-background-color: hsl(29, 58%, 99%);
+@code-background-color: hsl(29, 56%, 96%);
+@scrollbar-thumb-color: hsla(0, 0%, 0%, 0.3);
 
 h1,h2,h3,h4,h5,h6 {
 	font-family: @headline-font;
@@ -20,13 +33,13 @@ pre, code {
 }
 
 body {
-	background-color: #f2f2f4;
+	background-color: @gutter-color;
 	margin: 5pt auto;
 	max-width: 400pt;
 	>header>h1 {
 		padding: 24pt;
-		color: #eee;
-		background-color: @dark-background;
+		color: @mast-text;
+		background-color: @mast-background;
 		small {
 			font-weight: 200;
 			font-size: 11pt;
@@ -35,10 +48,10 @@ body {
 			text-decoration: none;
 		}
 		a:link,a:visited {
-			color:#eee;
+			color: @mast-link;
 		}
 		a:hover, a:active {
-			color:#fff;
+			color: @mast-hover;
 		}
 		.rss {
 			float: right;
@@ -56,21 +69,29 @@ body {
 		}
 	}
 	>section, >header {
-		-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
-		-moz-box-shadow:    0px 0px 5px rgba(0, 0, 0, 1);
-		box-shadow:         0px 0px 5px rgba(0, 0, 0, 1);
+		-webkit-box-shadow: 0px 0px 5px @shadow-color;
+		-moz-box-shadow: 0px 0px 5px @shadow-color;
+		box-shadow: 0px 0px 5px @shadow-color;
+	}
+	>section {
+		background-color: @body-background-color;
+	}
+	>footer {
+	}
+	>section>footer {
 	}
 	>footer, >section>footer {
+		width: 100%;
 		padding: 5pt;
-		color: #aaa;
+		color: @chrome-text-color;
 		a {
 			text-decoration: none;
 		}
 		a:link,a:visited {
-			color:#bbb;
+			color: @chrome-link-color;
 		}
 		a:hover, a:active {
-			color:#000;
+			color: @chrome-hover-color;
 		}
 		text-align: center;
 		ul {
@@ -104,7 +125,6 @@ article:first-of-type {
 
 article {
 	max-width: 600pt;
-	background-color: white;
 	>header, >h2, >h3, >h4, >pre, >p, >footer, >ul, >ol {
 		padding-left: 24pt;
 		padding-right: 24pt;
@@ -121,7 +141,7 @@ article {
 	margin: 0 auto;
 	>header {
 		.meta {
-			color: #aaa;
+			color: @chrome-text-color;
 			font-size: 10pt;
 		}
 	}
@@ -178,13 +198,13 @@ section>footer {
 		background-color: #f3f3f3;
 	}
 	.disabled {
-		color: #aaa;
+		color: @chrome-text-color;
 	}
 }
 
 pre {
 	font-size:10pt;
-	background-color: #fffff3;
+	background-color: @code-background-color;
 	overflow-x: auto;
 }
 pre code {
@@ -243,7 +263,7 @@ pre::-webkit-scrollbar {
 pre::-webkit-scrollbar-thumb {
     border-radius: 8px;
     border: 2px solid white; /* should match background, can't be transparent */
-    background-color: rgba(0, 0, 0, .3);
+    background-color: @scrollbar-thumb-color;
 }
 
 .post-date {
