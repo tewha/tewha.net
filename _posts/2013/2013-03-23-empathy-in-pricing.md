@@ -65,7 +65,7 @@ Summary:
 
 ## Price increases ##
 
-Is your product already underpriced? Go ahead and announce you're increasing the price at a specific time or event. Then stick to it.
+Is your product already under-priced? Go ahead and announce you're increasing the price at a specific time or event. Then stick to it.
 
 If I'm interested in your product at its old price, I will probably nod and agree with you that you were or are undercharging. And if I catch the price before it goes up, so much the better.
 
