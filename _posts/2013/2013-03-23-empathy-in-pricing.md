@@ -17,7 +17,7 @@ Catching introductory pricing is always interesting. I fight a feeling that your
 
 I need to make a decision: Is your product's value enough to justify its current price? Are you really going to make it more valuable to match its price later? Do I want the current features at the current price, or trust that you'll make it worth its final price later?
 
-Missing introductory pricing doesn't necessarily raise my hackles. I am annoyed, however, if I was considering your product and you arbitrarily ended the offer.
+Missing introductory pricing doesn't necessarily raise my hackles. I am annoyed, however, if I was considering your product and you arbitrarily ended the offer without any notice.
 
 Overall, I think introductory pricing is reasonable. Give me a little warning before you end it, though!
 
@@ -40,7 +40,7 @@ Likewise, a sale before a new version? Go ahead.
 
 On the other hand, arbitrarily sales give me a feeling of instability. A 50% price drop for the month of March? I'm going to be annoyed when I discover your product in April.
 
-But better yet: Don't do sales.
+But better yet: Don't do sales. Putting on my developer hat for a moment, is what you made worth it or not? If it is, it is.
 
 Summary:
 
