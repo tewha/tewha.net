@@ -1,7 +1,7 @@
 ---
 layout: post
 tags : ["pricing"]
-title: "Empathy in Pricing"
+title: "Empathy in pricing"
 ---
 I don't know much about pricing products as a developer. While I'm a programmer, I don't have apps of my own yet. So take this with a grain of salt, go ahead and flame me, etc.  **These are just my feelings.**
 
@@ -11,7 +11,7 @@ I'm going to start with something bold, then work my way back to it: Never let m
 
 <!--more-->
 
-## Introductory Pricing ##
+## Introductory pricing ##
 
 Catching introductory pricing is always interesting. I fight a feeling that your product is not worth its full price yet, whether due to bugs or missing features.
 
@@ -63,7 +63,7 @@ Summary:
 * Education is an exception. Go ahead, I won't feel slighted.
 * Sticking with your price is better.
 
-## Price Increases ##
+## Price increases ##
 
 Is your product already underpriced? Go ahead and announce you're increasing the price at a specific time or event. Then stick to it.
 
