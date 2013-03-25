@@ -6,7 +6,10 @@ theme: tewha
 ---
 
 <section>
-  <!-- iterate through the posts on this page -->
+	<header>
+		<h1><a href="{{ HOME_PATH }}">{{ site.title }} {% if site.tagline %} <small>{{ site.tagline }}</small>{% endif %}</a><a href="{{ production_url }}/atom.xml" class="rss"><img src="{{ production_url }}/assets/themes/tewha/feed-icon-28x28.png" width="28" height="28"></a></h1>
+	</header>
+	
   {% for page in paginator.posts %}
     <article>
       <header>
