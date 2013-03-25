@@ -22,12 +22,12 @@ theme: tewha
   <footer>
       <ul>
         {% if paginator.previous_page == 1 %}
-          <li class="newer"><a href="/">&laquo;&laquo; Newer Entries</a></li>
+          <li class="newer"><a href="/">&larr; Newer Entries</a></li>
         {% elsif paginator.previous_page %}
-          <li class="newer"><a href="/page{{ paginator.previous_page }}">&laquo;&laquo; Newer Entries</a></li>
+          <li class="newer"><a href="/page{{ paginator.previous_page }}">&larr; Newer Entries</a></li>
         {% endif %}
         {% if paginator.next_page %}
-          <li class="prev"><a href="/page{{ paginator.next_page }}">Older Entries &raquo;&raquo;</a></li>
+          <li class="prev"><a href="/page{{ paginator.next_page }}">Older Entries &rarr;</a></li>
         {% endif %}
       </ul>
   </footer>
