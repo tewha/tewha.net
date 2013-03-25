@@ -18,8 +18,15 @@ Other places I'm found online:
 * [GitHub][github]
 * [Twitter][twitter]
 
+## About tewha.net ##
+
+My own blog, currently mostly about iOS software development.
+
+It's implemented using Jekyll Bootstrap. It's hosted on [Dreamhost][dreamhost], which has treated me very well over the years (extremely limited downtime, and very high speed).
+
 [adn]: https://alpha.app.net/tewha
 [github]: https://github.com/tewha
 [github-blog]: https://github.com/tewha/tewha.github.com
 [twitter]: https://twitter.com/tewha
 [discovery]: http://www.discoverysoftware.com
+[dreamhost]: http://www.dreamhost.com/r.cgi?67943
