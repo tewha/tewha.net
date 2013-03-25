@@ -14,11 +14,12 @@ I'm married with a five year old son.
 
 Other places I'm found online:
 
-* [App.net][adn]
+* [App.net][adn] — including [this blog][github-blog]
 * [GitHub][github]
 * [Twitter][twitter]
 
 [adn]: https://alpha.app.net/tewha
 [github]: https://github.com/tewha
+[github-blog]: https://github.com/tewha/tewha.github.com
 [twitter]: https://twitter.com/tewha
 [discovery]: http://www.discoverysoftware.com
