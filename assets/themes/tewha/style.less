@@ -18,6 +18,10 @@
 @body-meta-color: hsl(0, 0%, 50%);
 @code-background-color: hsl(29, 56%, 96%);
 @scrollbar-thumb-color: hsla(0, 0%, 0%, 0.3);
+@navigation-link-color: hsl(0, 0%, 30%);
+@navigation-hover-color: hsl(0, 0%, 100%);
+@navigation-hover-background-color: hsl(0, 0, 30%);
+@navigation-text-color: hsl(0, 0%, 75%);
 
 h1,h2,h3,h4,h5,h6 {
 	font-family: @headline-font;
@@ -36,6 +40,7 @@ pre, code {
 
 body {
 	background-color: @gutter-color;
+	background-image: url('background.png');
 	color: @body-text-color;
 	margin: 5pt auto;
 	max-width: 500pt;
@@ -81,7 +86,7 @@ body {
 	}
 	>section>footer {
 	}
-	>footer, >section>footer {
+	>footer {
 		width: 100%;
 		padding: 5pt;
 		color: @chrome-text-color;
@@ -185,14 +190,14 @@ section>footer {
 	margin: 0 auto;
 	a:link, a:visited, a:hover, a:active {
 		text-decoration: none;
-		color: #888;
+		color: @navigation-link-color;
 	}
 	a:hover, a:active {
-		color: #f00;
-		background-color: #f3f3f3;
+		background-color: @navigation-hover-background-color;
+		color: @navigation-hover-color;
 	}
 	.disabled {
-		color: @chrome-text-color;
+		color: @navigation-text-color;
 	}
 }
 
