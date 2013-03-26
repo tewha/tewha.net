@@ -15,6 +15,7 @@
 @body-link-color: hsl(202, 81%, 44%);
 @body-hover-color: hsl(202, 81%, 30%);
 @body-background-color: hsl(29, 58%, 99%);
+@body-meta-color: hsl(0, 0%, 50%);
 @code-background-color: hsl(29, 56%, 96%);
 @scrollbar-thumb-color: hsla(0, 0%, 0%, 0.3);
 
@@ -138,12 +139,6 @@ article {
 	}
 	padding-bottom: 24pt;
 	margin: 0 auto;
-	>header {
-		.meta {
-			color: @chrome-text-color;
-			font-size: 10pt;
-		}
-	}
 	>footer {
 		text-align: left;
 	}
@@ -267,5 +262,5 @@ pre::-webkit-scrollbar-thumb {
 
 .post-date {
 	font-size: 11pt;
-	color: #ccc;
+	color: @body-meta-color;
 }
