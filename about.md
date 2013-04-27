@@ -26,7 +26,7 @@ It's implemented using Jekyll Bootstrap. It's hosted on [Dreamhost][dreamhost], 
 
 [adn]: https://alpha.app.net/tewha
 [github]: https://github.com/tewha
-[github-blog]: https://github.com/tewha/tewha.github.com
+[github-blog]: https://github.com/tewha/tewha.net
 [twitter]: https://twitter.com/tewha
 [discovery]: http://www.discoverysoftware.com
 [dreamhost]: http://www.dreamhost.com/r.cgi?67943
