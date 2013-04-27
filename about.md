@@ -14,8 +14,8 @@ I'm married with a five year old son.
 
 Other places I'm found online:
 
-* [App.net][adn] — including [this blog][github-blog]
-* [GitHub][github]
+* [App.net][adn]
+* [GitHub][github] — including [this blog][github-blog]
 * [Twitter][twitter]
 
 ## About tewha.net ##
