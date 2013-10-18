@@ -31,7 +31,7 @@ This is a little more complicated. You'll need to do this at runtime: Set the `t
 
 This probably isn't going to work for you as is.
 
-You'll find lots of crazy solutions to this; manipulating the `backBarButtonItem` by hand and restoring it after for instance. (There are much crazier solutions.)
+You'll find lots of crazy solutions to this; manipulating the `backBarButtonItem` by hand and restoring it after for instance. (There are much, much crazier solutions.)
 
 The key is understanding why it's not working: `backBarButtonItem` is `nil`.
 
