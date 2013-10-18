@@ -3,7 +3,9 @@ layout: post
 tags : ["Objective-C", "Coding"]
 title: "Change back button title"
 ---
-When you're using a navigation controller, the title of the back button on a particular view controller is pulled from the view it leads to. For instance, if you start with view controller A and push view controller B, the back button's text on view controller B will be pulled from view controller A.
+When you're using a navigation controller, the title of the back button on a particular view controller is pulled from the view it leads to.
+
+Although this can be initially confusing, this actually makes a lot of sense. If two different view controllers (say, Circles and Squares) might push the same view controller (Details), shouldn't the text in the top left of that view controller depend on which controller pushed it (Circles or Squares)?
 
 Think of it this way:
 
