@@ -41,3 +41,16 @@ To make it not `nil`, you have two options:
 2. Create the `backBarButtonItem` at runtime in your `viewDidLoad` or `awakeFromNib` ([suggested by @calebd](https://twitter.com/calebd/status/391068542076207105)). I don't recommend doing this in code; you're already using a storyboard or nib, so it's much simpler to just put a **Back Button** value into your view controller.
 
 Once it's created — whether in code or by storyboard — its title can be changed. You can change `backBarButtonItem`'s title at any time when the parent is displayed, as often as you like: it'll only be shown when you push something else on top of it.
+
+## Summary
+
+If the text is always the same:
+
+1. Select the parent view controller's **Navigation Item** in the editor.
+2. Put the text into the **Back Button** value.
+
+If the text is dynamic:
+
+1. Select the parent view controller's **Navigation Item** in the editor.
+2. Put *some* text into the **Back Button** value.
+3. Set the title in the *parent* view controller, when its contents change: `self.navigationItem.backBarButtonItem.title = dynamicText;`
