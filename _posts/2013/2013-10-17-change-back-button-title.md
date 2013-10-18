@@ -16,9 +16,21 @@ Think of it this way:
 
 This won't compile; `visibleBackButtonTitle` doesn't actually exist.
 
-There are a few reasons to show custom text on the back button. The most obvious is that your title relies on user input that may be too long, and you want something simpler and more generic. This case is simple: select the parent view controller and give it a custom **Back Button** value.
+There are a few reasons to show custom text on the back button.
+
+## More generic
+
+The most obvious reason is that your title relies on user input that may be too long, and you want something simpler and more generic.
+
+This might be the case if the user taps an event. The title in the navigation controller should be the event's title, but you might want to use something shorter like Event on the back button.
+
+This case is simple: select the parent view controller and give it a custom **Back Button** value.
+
+## More specific
 
 You might also have the opposite problem, where your context is not visible in the navigation title because it's obvious from something else in the view controller. But you still want to leave that more specific title as a breadcrumb for the user.
+
+An example of this might be an address without a label. The first line of the address doesn't make sense as a navigation title, as it duplicates the view. But if you tap deeper than that, you might want to include *something* about the address, such as as the position in the list.
 
 This is a little more complicated. You'll need to do this at runtime: Set the `title` of the `backBarButtonItem` for the navigation item of the view controller the button leads to. That will prevent the navigation item's `title` from being used.
 
