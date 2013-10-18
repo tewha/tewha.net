@@ -8,9 +8,9 @@ When you're using a navigation controller, the title of the back button on a par
 Think of it this way:
 
     thisViewController.visibleBackButtonTitle =
-      previousViewController.navigationItem.backBarButtonItem.title
-      ?: previousViewController.navigationItem.title
-      ?: previousViewController.title;
+        previousViewController.navigationItem.backBarButtonItem.title
+        ?: previousViewController.navigationItem.title
+        ?: previousViewController.title;
 
 This won't compile; `visibleBackButtonTitle` doesn't actually exist.
 
