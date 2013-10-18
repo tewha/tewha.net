@@ -36,6 +36,6 @@ The key is understanding why it's not working: `backBarButtonItem` is `nil`.
 To make it not `nil`, you have two options:
 
 1. Select the navigation item in the storyboard editor and give **Back Button** a value. This value will cause the `backBarButtonItem` to be automatically created with the view controller is instantiated.
-2. Create the `backBarButtonItem` at runtime in your `viewDidLoad`. I don't recommend this; it's much simpler to just put a **Back Button** value into your view controller.
+2. Create the `backBarButtonItem` at runtime in your `viewDidLoad` or `awakeFromNib` ([suggested by @calebd](https://twitter.com/calebd/status/391068542076207105)). I don't recommend doing this in code; you're already using a storyboard or nib, so it's much simpler to just put a **Back Button** value into your view controller.
 
 Once it's created — whether in code or by storyboard — its title can be changed.
