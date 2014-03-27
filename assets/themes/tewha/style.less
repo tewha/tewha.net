@@ -130,11 +130,11 @@ article:first-of-type {
 }
 
 article {
-	>header, >h2, >h3, >h4, >pre, >p, >footer, >ul, >ol {
+	>header, >h2, >h3, >h4, >pre, >p, >footer, >ul, >ol, >blockquote {
 		padding-left: 24pt;
 		padding-right: 24pt;
 	}
-	>pre {
+	>pre, >blockquote {
 		padding-top: 12pt;
 		padding-bottom: 12pt;
 	}
@@ -150,11 +150,10 @@ article {
 	li, p {
 		line-height: 160%;
 	}
-	pre {
+	pre, >blockquote {
 		line-height: 150%;
 	}
 }
-
 h1 {
 	font-size: 22pt; 
 }
@@ -201,9 +200,11 @@ section>footer {
 	}
 }
 
+pre, blockquote {
+	background-color: @code-background-color;
+}
 pre {
 	font-size:10pt;
-	background-color: @code-background-color;
 	overflow-x: auto;
 }
 pre code {
@@ -268,4 +269,10 @@ pre::-webkit-scrollbar-thumb {
 .post-date {
 	font-size: 11pt;
 	color: @body-meta-color;
+}
+
+blockquote {
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	font-size: 80%;
 }
