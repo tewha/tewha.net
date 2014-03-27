@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["Objective-C", "Coding", "iOS"]
+tags : ["Objective-C", "UIKit", "iOS"]
 title: "Built-in categories"
 ---
 
