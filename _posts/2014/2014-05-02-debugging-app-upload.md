@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["Objective-C", "iOS"]
+tags : ["Objective-C", "iOS", "code-signing"]
 title: "Debugging app upload"
 ---
 
