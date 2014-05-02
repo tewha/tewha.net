@@ -6,7 +6,7 @@ title: "Debugging app upload"
 
 I've had some recent troubles trying to upload a build in Xcode. These involved getting a really unhelpful error from Xcode: "No identities were available." Unfortunately, I was stuck there for two days.
 
-It turns out that you can get Xcode to log more information on the handshake with the portal using these two commands:
+It turns out that you can get Xcode to log more information on the handshake with the portal. Quit Xcode, then run these two commands.
 
 	defaults write com.apple.dt.Xcode DVTCodesigningAllTheThingsLogLevel 3
 	defaults write com.apple.dt.Xcode DeveloperPortalLogLevel 3
