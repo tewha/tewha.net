@@ -12,7 +12,7 @@ No, newbie, you don't need to learn Objective-C first. You'll miss it from time 
 
 ## ARC, an admittedly imperfect analogy
 
-Let me rewind a few years. Apple introduced Automatic Reference Counting, which let the compiler manage its own memory. To this day, people continue to suggest you learn manual release/retain (MRR) before using ARC. I used MRR for years, and it really didn't help me learn ARC. What helped me was understanding the object graph model, which was actually HIDDEN by MRR. I think knowing MRR makes it harder to learn ARC.
+Let me rewind a few years. Apple introduced Automatic Reference Counting, which let the compiler manage its own memory. To this day, people continue to suggest you learn manual release/retain (MRR) before using ARC. I used MRR for years, and it really didn't help me learn ARC. What helped me was understanding the object graph model, which was actually *hidden* by MRR. I think knowing MRR can actually make it *harder* to learn ARC.
 
 So should you learn MRR *first*? No. You should learn the concepts behind good memory management on iOS — something many programmers never learned under MRR — then apply them to ARC. MRR is mostly unrelated to this.
 
