@@ -8,7 +8,7 @@ Jon Friskics suggets [Swift is great, but you should still know Objective-C firs
 
 Let me give you a different opinion:
 
-No, newbie, you don't learn Objective-C. You'll miss it from time to time and you might want to pick it up later, but it won't help you much now. And it will color your thinking in a way that might hurt your understanding.
+No, newbie, you don't need to learn Objective-C first. You'll miss it from time to time and you might want to pick it up later, but it won't help you much now. And it will color your thinking in a way that might hurt your understanding.
 
 ## ARC, an admittedly imperfect analogy
 
