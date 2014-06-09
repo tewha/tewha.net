@@ -18,7 +18,7 @@ So should you learn MRR *first*? No. You should learn the concepts behind good m
 
 To any MRR people who just read this and are shaking their heads: No, you really don't need to know it. You and I know that this chunk of code is slow because it's doing extra retains and releases, but the ARC user might instead know it's because they're assigning a strong reference. And the funny thing is that's probably a better way to think of it.
 
-And none of this is to suggest that's not to say people it isn't helpful to learn MRR. MRR offfers a better perspective on some concepts, such as [`__autoreleasing`, bridge casts, precise lifetime, consumed parameters](https://alpha.app.net/jws/post/32225169). But I'm not at all convinced you need to learn MRR first, because I think the ARC concepts are generally more useful for a 5,000 foot view of what's going on.
+And none of this is to suggest that's not to say people it isn't helpful to learn MRR. MRR offfers a better perspective on some concepts, such as [`__autoreleasing`, bridge casts, precise lifetime, consumed parameters](https://alpha.app.net/jws/post/32225169). But I'm not at all convinced you need to learn MRR first, because I think the ARC concepts are generally more useful for a 5,000 foot view of what's going on. When you're hovering three feet over? Knowing MRR is great.
 
 ## Swift
 
