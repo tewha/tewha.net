@@ -10,11 +10,17 @@ Let me give you a different opinion:
 
 No, newbie, you don't learn Objective-C. You'll miss it from time to time and you might want to pick it up later, but it won't help you much now. And it will color your thinking in a way that might hurt your understanding.
 
+## ARC, an admittedly imperfect analogy
+
 Let me rewind a few years. Apple introduced Automatic Reference Counting, which let the compiler manage its own memory. To this day, people continue to suggest you learn manual release/retain (MRR) before using ARC. I used MRR for years, and it really didn't help me learn ARC. What helped me was understanding the object graph model, which was actually HIDDEN by MRR. I think knowing MRR makes it harder to learn ARC.
 
 So should you learn MRR? No. You should learn the concepts behind good memory management on iOS — something many programmers never learned under MRR — then apply them to ARC. MRR is completely unrelated to this. Saying MRR helps is like saying **1+1 = cheese**.
 
 To any MRR people who just read this and are shaking their heads: No, you really don't need to know it. You and I know that this chunk of code is slow because it's doing extra retains and releases, but the ARC user might instead know it's because they're assigning a strong reference. And the funny thing is that's probably a better way to think of it.
+
+And none of this is to suggest that's not to say people it isn't helpful to learn MRR. MRR offfers a better perspective on some concepts, such as [__autoreleasing, bridge casts, precise lifetime, consumed parameters](https://alpha.app.net/jws/post/32225169). But I'm not at all convinced you need to learn MRR *first*, because I think the ARC concepts are *generally* more useful for a 5,000 foot view of what's going on.
+
+## Swift
 
 Just looking at it and playing for a few minutes, I think Swift is another great example of this. Swift is a teaching language that's probably more useful for day-to-day programming tasks than the language it replaces. It's also likely to be more performant than Objective-C, thanks to… well, that's another article. :)
 
