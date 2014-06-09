@@ -14,6 +14,8 @@ Let me rewind a few years. Apple introduced Automatic Reference Counting, which 
 
 So should you learn MRR? No. You should learn the concepts behind good memory management on iOS — something many programmers never learned under MRR — then apply them to ARC. MRR is completely unrelated to this. Saying MRR helps is like saying **1+1 = cheese**.
 
+To any MRR people who just read this and are shaking their heads: No, you really don't need to know it. You and I know that this chunk of code is slow because it's doing extra retains and releases, but the ARC user might instead know it's because they're assigning a strong reference. And the funny thing is that's probably a better way to think of it.
+
 Just looking at it and playing for a few minutes, I think Swift is another great example of this. Swift is a teaching language that's probably more useful for day-to-day programming tasks than the language it replaces. It's also likely to be more performant than Objective-C, thanks to… well, that's another article. :)
 
 If you're a new developer reading this, ignore Friskics's article. **Get the concepts down** and then **learn the language you're going to use**. Enjoy it. You don't have to suffer like we did.
