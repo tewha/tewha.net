@@ -8,13 +8,17 @@ Jon Friskics suggets [Swift is great, but you should still know Objective-C firs
 
 Let me give you a different opinion:
 
-No, newbie, you don't learn Objective-C. You'll miss it from time to time and you might want to pick it up later, but it won't help you much now. And it might hurt you.
+No, newbie, you don't learn Objective-C. You'll miss it from time to time and you might want to pick it up later, but it won't help you much now. And it will color your thinking in a way that might hurt your understanding.
 
-People continue to suggest you learn manual release/retain (MRR) before using automatic reference counting (ARC). I used MRR for years, and it really didn't help me learn ARC. What helped me was understanding the object graph model, which was actually HIDDEN by MRR. I think knowing MRR makes it harder to learn ARC.
+Let me rewind a few years. Apple introduced Automatic Reference Counting, which let the compiler manage its own memory. To this day, people continue to suggest you learn manual release/retain (MRR) before using ARC. I used MRR for years, and it really didn't help me learn ARC. What helped me was understanding the object graph model, which was actually HIDDEN by MRR. I think knowing MRR makes it harder to learn ARC.
 
-Just looking at it and playing for a few minutes, I think Swift is another great example of this. Swift is a teaching language that's actually more useful for day-to-day programming tasks than the language it replaces. It's also likely to be more performant than Objective-C, thanks to… well, that's another article. :)
+So should you learn MRR? No. You should learn the concepts behind good memory management on iOS — something many programmers never learned under MRR — then apply them to ARC. MRR is completely unrelated to this. Saying MRR helps is like saying **1+1 = cheese**.
 
-If you're a new developer reading this, ignore Friskics's article. Get the concepts down and learn the language you're going to actually use. Enjoy it. You don't have to suffer like we did.
+Just looking at it and playing for a few minutes, I think Swift is another great example of this. Swift is a teaching language that's probably more useful for day-to-day programming tasks than the language it replaces. It's also likely to be more performant than Objective-C, thanks to… well, that's another article. :)
+
+If you're a new developer reading this, ignore Friskics's article. **Get the concepts down** and then **learn the language you're going to use**. Enjoy it. You don't have to suffer like we did.
+
+In a few years I'll miss Objective-C. But primarily because I felt there was always something to learn about it, and a better way to write my code. I'm not sure if I'll still have that feeling with Swift, but that nostalgia doesn't mean Objective-C is a better language.
 
 To address his points:
 
