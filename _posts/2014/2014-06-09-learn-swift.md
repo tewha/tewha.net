@@ -18,7 +18,7 @@ To any MRR people who just read this and are shaking their heads: No, you really
 
 Just looking at it and playing for a few minutes, I think Swift is another great example of this. Swift is a teaching language that's probably more useful for day-to-day programming tasks than the language it replaces. It's also likely to be more performant than Objective-C, thanks to… well, that's another article. :)
 
-If you're a new developer reading this, ignore Friskics's article. **Get the concepts down** and then **learn the language you're going to use**. Enjoy it. You don't have to suffer like we did.
+If you're a new developer reading this, ignore Friskics's article. **Get the concepts down** and then **learn the language you're going to use**. Enjoy it. You don't have to suffer like we did. You get to start from our shoulders, and that's a good thing. Nothing prevents you from learning down as well.
 
 In a few years I'll miss Objective-C. But primarily because I felt there was always something to learn about it, and a better way to write my code. I'm not sure if I'll still have that feeling with Swift, but that nostalgia doesn't mean Objective-C is a better language.
 
