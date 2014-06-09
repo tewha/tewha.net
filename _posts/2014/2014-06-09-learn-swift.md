@@ -14,11 +14,11 @@ No, newbie, you don't learn Objective-C. You'll miss it from time to time and yo
 
 Let me rewind a few years. Apple introduced Automatic Reference Counting, which let the compiler manage its own memory. To this day, people continue to suggest you learn manual release/retain (MRR) before using ARC. I used MRR for years, and it really didn't help me learn ARC. What helped me was understanding the object graph model, which was actually HIDDEN by MRR. I think knowing MRR makes it harder to learn ARC.
 
-So should you learn MRR? No. You should learn the concepts behind good memory management on iOS — something many programmers never learned under MRR — then apply them to ARC. MRR is completely unrelated to this. Saying MRR helps is like saying **1+1 = cheese**.
+So should you learn MRR *first*? No. You should learn the concepts behind good memory management on iOS — something many programmers never learned under MRR — then apply them to ARC. MRR is mostly unrelated to this.
 
 To any MRR people who just read this and are shaking their heads: No, you really don't need to know it. You and I know that this chunk of code is slow because it's doing extra retains and releases, but the ARC user might instead know it's because they're assigning a strong reference. And the funny thing is that's probably a better way to think of it.
 
-And none of this is to suggest that's not to say people it isn't helpful to learn MRR. MRR offfers a better perspective on some concepts, such as [__autoreleasing, bridge casts, precise lifetime, consumed parameters](https://alpha.app.net/jws/post/32225169). But I'm not at all convinced you need to learn MRR *first*, because I think the ARC concepts are *generally* more useful for a 5,000 foot view of what's going on.
+And none of this is to suggest that's not to say people it isn't helpful to learn MRR. MRR offfers a better perspective on some concepts, such as [`__autoreleasing`, bridge casts, precise lifetime, consumed parameters](https://alpha.app.net/jws/post/32225169). But I'm not at all convinced you need to learn MRR first, because I think the ARC concepts are generally more useful for a 5,000 foot view of what's going on.
 
 ## Swift
 
