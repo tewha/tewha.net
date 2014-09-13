@@ -36,7 +36,7 @@ No, it doesn't. The Wi-Fi SSID is available as part of the public API since iOS 
 
 Holding everything else constant, "No iPhones running MyAppName found on PARKSIDE," is simply a better message than "No iPhones running MyAppName found on your Wi-Fi."
 
-I don't have permission to share the code I use. I didn't even ask, because I found similiar code on  [stackoverflow](http://stackoverflow.com/questions/5198716/iphone-get-ssid-without-private-library/15236634#15236634). The key point here is that `CNCopyCurrentNetworkInfo` (a public API) returns a `NSDictionary` of information. If you don't know what that means, a rough translation is "There's a call in the public API that tells you everything Apple thinks its okay for you to know." The SSID is in there. It's part of Apple's public API.
+I don't have permission to share the code I use. I didn't even ask, because I found similiar code on  [stackoverflow](http://stackoverflow.com/questions/5198716/iphone-get-ssid-without-private-library/15236634#15236634). The key point here is that `CNCopyCurrentNetworkInfo` (a public API) returns a `NSDictionary` of information. If you don't know what that means, a rough translation is "There's a call in the public API that tells you everything about the network that Apple thinks its okay for you to know." The SSID is in there. It's part of Apple's public API.
 
 ## Understand, I'm not vouching for Facebook
 
