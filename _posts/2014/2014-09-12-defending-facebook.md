@@ -10,7 +10,7 @@ CBC has a story right now on how [Facebook Messanger captures more data than you
 
 ## Analytics
 
-Do you care if Facebook knows which way you hold your phone or which UI elements you use to work?
+Do you care if Facebook knows which way you hold your phone or which UI elements you use **within the Messenger app** to work?
 
 How you use the UI is useful to them in aggregate, as it helps them improve the UI if they find people taking inefficient paths, backing out of screens immediately (they probably tapped the wrong thing), etc. They can certainly tell all these things if you use the website; that's just part of how the web works. 
 
