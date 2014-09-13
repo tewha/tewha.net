@@ -45,3 +45,5 @@ While we're raging about Facebook collecting too much data here because they kno
 Has Facebook built a system where your messages are really secure, not just from *hackers* but from *them*? No.
 
 You should be worried about sending the **contents** of your message through Facebook, whether you're using the website or the app. Are they going to look at it? Probably not. Could they if they wanted to? Absolutely. Will they if it's part of a broad data collection warrant? Yes, of course.
+
+If you care about privacy, use a secure system.
