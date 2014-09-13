@@ -46,7 +46,7 @@ But I think if there were real holes here, we'd probably have better examples th
 
 ## We're all focusing on the wrong thing
 
-While we're raging about Facebook collecting too much data here because they know which way you're phone is facing, how they store data in memory, or that they know the name of your SSID we're missing the obvious.
+While we're raging about Facebook collecting too much data here because they know which way your phone is facing, how they store data in memory, or that they know the name of your SSID we're missing the obvious.
 
 Has Facebook built a system where your messages are really secure, not just from *hackers* but from *them*? No.
 
