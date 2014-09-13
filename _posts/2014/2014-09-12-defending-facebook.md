@@ -6,7 +6,7 @@ title: "Defending Facebook"
 
 You know what I really hate? Defending Facebook.
 
-CBC has a story right now on how [Facebook Messanger captures more data than you think](http://www.cbc.ca/newsblogs/yourcommunity/2014/09/facebook-messenger-found-to-be-tracking-a-lot-more-data-than-you-think.html). And thanks to how inaccurate that story is, now I have to.
+CBC has a story right now on how [Facebook Messanger captures more data than you think](http://www.cbc.ca/newsblogs/yourcommunity/2014/09/facebook-messenger-found-to-be-tracking-a-lot-more-data-than-you-think.html). And thanks to how inaccurate that story is, now I have to defend Facebook. Way to make my day, CBC.
 
 ## Analytics
 
@@ -46,4 +46,4 @@ Has Facebook built a system where your messages are really secure, not just from
 
 You should be worried about sending the **contents** of your message through Facebook, whether you're using the website or the app. Are they going to look at it? Probably not. Could they if they wanted to? Absolutely. Will they if it's part of a broad data collection warrant? Yes, of course.
 
-If you care about privacy, use a secure system.
+If you care about privacy, use truly a secure system.
