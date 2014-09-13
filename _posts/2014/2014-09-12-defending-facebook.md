@@ -20,6 +20,8 @@ But remember this app is replacing a website. All of this data would be sent to 
 
 Going back to my question: Does it matter if Facebook knows which way you hold the phone when you type, to use one of the examples from the CBC article? No, of course not.
 
+As a sidebar -- I don't have sidebars -- I don't even run basic analytics on this site. I do outsource the creative commons badge on the bottom of this page, and there is a script link to App.net. It's technically possible that they do something. I write because I enjoy writing. I don't really care who reads it. I bet CBC runs a lot more analytics. Probably as many as Facebook's Messenger.
+
 ## Memory representation
 
 Zdziarski also makes a point about how credit cards are stored in memory.
