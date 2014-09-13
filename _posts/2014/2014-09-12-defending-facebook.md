@@ -1,6 +1,6 @@
 ---
 layout: post
-tags : ["Mobile", "iOS"]
+tags : ["Mobile", "iOS", "privacy"]
 title: "Defending Facebook"
 ---
 
@@ -16,9 +16,9 @@ How you use the UI is useful to them in aggregate, as it helps them improve the 
 
 I'm not a fan of analytics and I wouldn't do it in my own apps. First, if you don't burst those transmissions with other data, it'll drain the battery a lot faster. Even if you do it'll drain it a bit faster. But also, unless you explicitly opt into the analytics -- and not as part of a general Terms of Service, like you probably did with Facebook -- it's skeevy.
 
-But remember this app is replacing a website. All of this data would be sent to a website from a web browser anyway. For a company replacing a web browser, building in analytics like this probably seems an obvious choice.
+But remember this app is replacing a website. All of this data would be sent to a website from a web browser anyway. For a company replacing a web browser, building in analytics like this probably seems an obvious choice. Certainly, if you think going back to using the website will save you from Facebook knowing how if you opened this menu here or how you to delete a message you're wrong.
 
-Going back to my question: Does it matter if Facebook (to use one of the examples from the CBC article) knows which way you hold the phone when you type? No, of course not.
+Going back to my question: Does it matter if Facebook knows which way you hold the phone when you type, to use one of the examples from the CBC article? No, of course not.
 
 ## Memory representation
 
