@@ -26,7 +26,7 @@ Zdziarski also makes a point about how credit cards are stored in memory.
 
 Memory is memory; the iPhone never writes swap pages to disk. Everything you do on your computer is stored in memory. It's all transient, and it all goes away.
 
-Worrying about credit cards being stored in memory is alarmist garbage. If you're worried about someone connecting a debugger to your app, stop.
+Worrying about credit cards being stored in memory is alarmist garbage. If you're worried about someone connecting a debugger to an app, stop.
 
 ## Private API
 
@@ -47,3 +47,7 @@ Has Facebook built a system where your messages are really secure, not just from
 You should be worried about sending the **contents** of your message through Facebook, whether you're using the website or the app. Are they going to look at it? Probably not. Could they if they wanted to? Absolutely. Will they if it's part of a broad data collection warrant? Yes, of course.
 
 If you care about privacy, use truly a secure system.
+
+## By the way, did you jailbreak your phone?
+
+Just so you know, that disables a lot of Apple's security precautions. It won't make a difference here, but if you're worried about Facebook Messenger's security with a jailbroken phone… I'm laughing.
