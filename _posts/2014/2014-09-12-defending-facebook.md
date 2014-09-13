@@ -18,6 +18,8 @@ I'm not a fan of analytics and I wouldn't do it in my own apps. First, if you do
 
 But remember this app is replacing a website. All of this data would be sent to a website from a web browser anyway. For a company replacing a web browser, building in analytics like this probably seems an obvious choice.
 
+Going back to my question: Does it matter if Facebook (to use one of the examples from the CBC article) knows which way you hold the phone when you type? No, of course not.
+
 ## Memory representation
 
 Zdziarski also makes a point about how credit cards are stored in memory.
@@ -36,8 +38,10 @@ Holding everything else constant, "No iPhones running MyAppName found on PARKSID
 
 I don't have permission to share the code I use. I didn't even ask, because I found similiar code on  [stackoverflow](http://stackoverflow.com/questions/5198716/iphone-get-ssid-without-private-library/15236634#15236634). The key point here is that `CNCopyCurrentNetworkInfo` (a public API) returns a dictionary of information. The SSID is in there. It's part of Apple's public API.
 
-## Focus
+## We're all focusing on the wrong thing
 
-Am I saying you should trust Facebook? No, not at all. What I'm saying is that you're worrying about the wrong thing.
+While we're raging about Facebook collecting too much data here because they know which way you're phone is facing, how they store data in memory, or that they know the name of your SSID we're missing the obvious.
 
-Who cares which route you take to delete a message? Who cares which way you hold your phone to type? You should be worried about sending the **contents** of your message through Facebook, whether you're using the website or the app.
+Has Facebook built a system where your messages are really secure, not just from *hackers* but from *them*? No.
+
+You should be worried about sending the **contents** of your message through Facebook, whether you're using the website or the app. Are they going to look at it? Probably not. Could they if they wanted to? Absolutely. Will they if it's part of a broad data collection warrant? Yes, of course.
