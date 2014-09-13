@@ -38,6 +38,12 @@ Holding everything else constant, "No iPhones running MyAppName found on PARKSID
 
 I don't have permission to share the code I use. I didn't even ask, because I found similiar code on  [stackoverflow](http://stackoverflow.com/questions/5198716/iphone-get-ssid-without-private-library/15236634#15236634). The key point here is that `CNCopyCurrentNetworkInfo` (a public API) returns a dictionary of information. The SSID is in there. It's part of Apple's public API.
 
+## Understand, I'm not vouching for Facebook
+
+I have no idea how the Facebook Messenger app works. For all I know, it's a giant mess of holes.
+
+But I think if there were real holes here, we'd probably have better examples than looking at the name of your SSID or which button you tapped.
+
 ## We're all focusing on the wrong thing
 
 While we're raging about Facebook collecting too much data here because they know which way you're phone is facing, how they store data in memory, or that they know the name of your SSID we're missing the obvious.
