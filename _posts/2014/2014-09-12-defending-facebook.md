@@ -24,7 +24,7 @@ Zdziarski also makes a point about how credit cards are stored in memory.
 
 Memory is memory; the iPhone never writes swap pages to disk. Everything you do on your computer is stored in memory. It's all transient, and it all goes away.
 
-Worrying about credit cards being stored in memory is alarmist bullshit. If you're worried about someone connecting a debugger to your app, stop.
+Worrying about credit cards being stored in memory is alarmist garbage. If you're worried about someone connecting a debugger to your app, stop.
 
 ## Private API
 
