@@ -8,7 +8,7 @@ Do you haven app where the row heights in a table view shift, especially when na
 
 This seems to be an iOS bug and is caused by using autolayout within a table cell without a `tableView:estimatedHeightForRowAtIndexPath:` method.
 
-If you do not implement this method, the UITableView will treat that as an estimated row height of `0`. AutoLayout will panic and try to compensate for this, and you'll still see an incorrect size. (I believe this to be the minimum size that it thinks would satisfy your content without any spacing, but I'm not sure of this.) You see this bug in some of Apple's apps, including Settings.
+If you do not implement this method, the UITableView will treat that as an estimated row height of `0`. AutoLayout will panic and try to compensate for this, and you'll still see an incorrect size. (I believe this to be the minimum size that it thinks would satisfy your content without any spacing and taking wrapping into account, but I'm not sure of this.) You see this bug in some of Apple's apps, including Settings.
 
 To fix it, you need to implement `tableView:estimatedHeightForRowAtIndexPath:` and return a rough estimate of the size of the row. iOS includes a constant for this, if you have no good estimate: `UITableViewAutomaticDimension`.
 
