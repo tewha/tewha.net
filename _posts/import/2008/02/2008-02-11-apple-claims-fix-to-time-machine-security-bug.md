@@ -5,7 +5,7 @@ title: "Apple claims fix to Time Machine security bug"
 ---
 Apple claims to have fixed the issue where applications could run automatically [out of a Time Machine backup][1]. Look for CVE-2008-0038 in Apple's [About the security content of Mac OS X 10.5.2 and Security Update 2008-001][2].
 
-[1]: {{ production_url }}/2007/11/mac-os-x/-runs-deleted-applications
+[1]: /2007/11/mac-os-x-runs-deleted-applications/
 [2]: http://docs.info.apple.com/article.html?artnum=307430
 
 <!--more-->
