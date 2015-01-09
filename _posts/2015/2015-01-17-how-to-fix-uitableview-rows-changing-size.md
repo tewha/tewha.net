@@ -17,7 +17,7 @@ This may introduce a few other (minor) problems, as providing estimates can lead
 However:
 
 * You should **not** attempt to calculate real height values. The entire point of this method is to short-circuit involved height calculation. It's just unnecessary.
-* You should not attempt to cache heights returned by the real `tableView:heightForRowAtIndexPath:`, either. The values in that cache will be wrong when estimatedHeightForRowAtIndexPath is first called anyway; they're really no better than `UITableViewAutomaticDimension`.
+* You should not attempt to cache heights returned by the real `tableView:heightForRowAtIndexPath:`, either. The values in that cache will be wrong when **estimatedHeightForRowAtIndexPath** is first called anyway; they're really no better than `UITableViewAutomaticDimension`. And if you return `0`, you'll hit this bug.
 
 So what _should_ you do? It really is this simple:
 
