@@ -4,7 +4,7 @@ tags : ["iOS", "UITableView"]
 title: "How to fix UITableView rows changing size"
 ---
 
-Do you haven app where the row heights in a table view shift, especially when navigating away from a view controller?
+Do you have an app where the row heights in a table view shift, especially when navigating away from a view controller?
 
 This seems to be an iOS bug and is caused by using autolayout within a table cell without a `tableView:estimatedHeightForRowAtIndexPath:` method.
 
