@@ -8,7 +8,7 @@ You know what I really hate? Defending Facebook.
 
 CBC has a story right now on how [Facebook Messanger captures more data than you think](http://www.cbc.ca/newsblogs/yourcommunity/2014/09/facebook-messenger-found-to-be-tracking-a-lot-more-data-than-you-think.html). And thanks to how inaccurate that story is, now I have to defend Facebook. Way to make my day, CBC.
 
-## Analytics
+## It's replacing a web app
 
 Do you care if Facebook knows which way you hold your phone or which UI elements you use **within the Messenger app** to work?
 
@@ -20,7 +20,7 @@ But remember this app is replacing a website. All of this data would be sent to 
 
 Going back to my question: Does it matter if Facebook knows which way you hold the phone when you type, to use one of the examples from the CBC article? No, of course not.
 
-As a sidebar -- I don't have sidebars -- I don't even run basic analytics on this site. I do outsource the creative commons badge on the bottom of this page, and there is a script link to App.net. It's technically possible that they do something. I write because I enjoy writing. I don't really care who reads it. I bet CBC runs a lot more analytics. Probably as many as Facebook's Messenger.
+I don't even run basic analytics on this site. I do outsource the creative commons badge on the bottom of this page, and there is a script link to App.net. It's technically possible that they do something. I write because I enjoy writing. I don't really care who reads it. I bet CBC runs a lot more analytics. Probably as many as Facebook's Messenger.
 
 ## Memory representation
 
@@ -44,18 +44,18 @@ I don't have permission to share the code I use. I didn't even ask, because I fo
 
 I have no idea how the Facebook Messenger app works. For all I know, it's a giant mess of holes.
 
-But I think if there were real holes here, we'd probably have better examples than looking at the name of your SSID or which button you tapped.
+But I think if there were real holes here, we'd probably have better examples than looking at the name of your SSID, which button you tapped, or which way you hold the phone to type.
 
-## We're all focusing on the wrong thing
+## Focusing on the wrong thing
 
-While we're raging about Facebook collecting too much data here because they know which way your phone is facing, how they store data in memory, or that they know the name of your SSID we're missing the obvious.
+You're missing the point when you worry about these kinds of things.
 
-Has Facebook built a system where your messages are really secure, not just from *hackers* but from *them*? No.
+A better thing to worry about: Has Facebook built a system where your messages are really secure, not just from *hackers* but from *them*? No.
 
 You should be worried about sending the **contents** of your message through Facebook, whether you're using the website or the app. Are they going to look at it? Probably not. Could they if they wanted to? Absolutely. Will they if it's part of a broad data collection warrant? Yes, of course.
 
-If you care about privacy, use truly a secure system.
+If you care about privacy, use a secure system. Facebook isn't one, but neither is SMS.
 
 ## By the way, did you jailbreak your phone?
 
-Just so you know, that disables a lot of Apple's security precautions. It won't make a difference here, but if you're worried about Facebook Messenger's security with a jailbroken phone… I'm laughing.
+Just so you know, that disables a lot of Apple's security precautions. It won't make a difference here, but if you're worried about Facebook Messenger's security with a jailbroken phone… I'm laughing. Worry first about whatever fly-by-night package manager and packages you have installed.
